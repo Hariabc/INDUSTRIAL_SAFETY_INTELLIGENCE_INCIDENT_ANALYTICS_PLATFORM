@@ -1,0 +1,24 @@
+{
+  "name": "industrial-safety-intelligence-platform",
+  "version": "1.0.0",
+  "description": "Turning Industrial Safety Events into Actionable Intelligence.",
+  "scripts": {
+    "frontend:install": "cd frontend && npm install",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:dev": "cd frontend && npm run dev",
+    "backend:dev": "uvicorn backend.app.main:app --reload --port 8000",
+    "generate:data": "python -m generator.generate --seed 20261022 --load-db",
+    "reproducibility:test": "python -m generator.reproducibility",
+    "test": "pytest -v"
+  },
+  "keywords": [
+    "industrial-iot",
+    "safety-intelligence",
+    "anomaly-detection",
+    "incident-traceability",
+    "fastapi",
+    "react"
+  ],
+  "author": "YottaFlex.ai Technical Evaluation",
+  "license": "MIT"
+}

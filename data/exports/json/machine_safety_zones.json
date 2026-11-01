@@ -1,0 +1,518 @@
+[
+  {
+    "machine_id": "MCH-001",
+    "safety_zone_id": "SAFE-PLN-001-001",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-04-12T00:00:00"
+  },
+  {
+    "machine_id": "MCH-001",
+    "safety_zone_id": "SAFE-PLN-001-002",
+    "coverage_type": "SECONDARY",
+    "created_at": "2024-04-12T00:00:00"
+  },
+  {
+    "machine_id": "MCH-002",
+    "safety_zone_id": "SAFE-PLN-001-002",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-12-10T00:00:00"
+  },
+  {
+    "machine_id": "MCH-003",
+    "safety_zone_id": "SAFE-PLN-001-003",
+    "coverage_type": "PRIMARY",
+    "created_at": "2022-10-07T00:00:00"
+  },
+  {
+    "machine_id": "MCH-003",
+    "safety_zone_id": "SAFE-PLN-001-004",
+    "coverage_type": "SECONDARY",
+    "created_at": "2022-10-07T00:00:00"
+  },
+  {
+    "machine_id": "MCH-004",
+    "safety_zone_id": "SAFE-PLN-001-004",
+    "coverage_type": "PRIMARY",
+    "created_at": "2026-03-25T00:00:00"
+  },
+  {
+    "machine_id": "MCH-005",
+    "safety_zone_id": "SAFE-PLN-001-005",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-06-05T00:00:00"
+  },
+  {
+    "machine_id": "MCH-005",
+    "safety_zone_id": "SAFE-PLN-001-001",
+    "coverage_type": "SECONDARY",
+    "created_at": "2025-06-05T00:00:00"
+  },
+  {
+    "machine_id": "MCH-006",
+    "safety_zone_id": "SAFE-PLN-001-001",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-05-21T00:00:00"
+  },
+  {
+    "machine_id": "MCH-007",
+    "safety_zone_id": "SAFE-PLN-001-002",
+    "coverage_type": "PRIMARY",
+    "created_at": "2026-01-01T00:00:00"
+  },
+  {
+    "machine_id": "MCH-007",
+    "safety_zone_id": "SAFE-PLN-001-003",
+    "coverage_type": "SECONDARY",
+    "created_at": "2026-01-01T00:00:00"
+  },
+  {
+    "machine_id": "MCH-008",
+    "safety_zone_id": "SAFE-PLN-001-003",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-11-08T00:00:00"
+  },
+  {
+    "machine_id": "MCH-009",
+    "safety_zone_id": "SAFE-PLN-001-004",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-01-27T00:00:00"
+  },
+  {
+    "machine_id": "MCH-009",
+    "safety_zone_id": "SAFE-PLN-001-005",
+    "coverage_type": "SECONDARY",
+    "created_at": "2024-01-27T00:00:00"
+  },
+  {
+    "machine_id": "MCH-010",
+    "safety_zone_id": "SAFE-PLN-001-005",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-12-03T00:00:00"
+  },
+  {
+    "machine_id": "MCH-010",
+    "safety_zone_id": "SAFE-PLN-001-001",
+    "coverage_type": "SECONDARY",
+    "created_at": "2025-12-03T00:00:00"
+  },
+  {
+    "machine_id": "MCH-011",
+    "safety_zone_id": "SAFE-PLN-001-001",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-12-03T00:00:00"
+  },
+  {
+    "machine_id": "MCH-011",
+    "safety_zone_id": "SAFE-PLN-001-002",
+    "coverage_type": "SECONDARY",
+    "created_at": "2024-12-03T00:00:00"
+  },
+  {
+    "machine_id": "MCH-012",
+    "safety_zone_id": "SAFE-PLN-001-002",
+    "coverage_type": "PRIMARY",
+    "created_at": "2023-06-11T00:00:00"
+  },
+  {
+    "machine_id": "MCH-012",
+    "safety_zone_id": "SAFE-PLN-001-003",
+    "coverage_type": "SECONDARY",
+    "created_at": "2023-06-11T00:00:00"
+  },
+  {
+    "machine_id": "MCH-013",
+    "safety_zone_id": "SAFE-PLN-001-003",
+    "coverage_type": "PRIMARY",
+    "created_at": "2026-03-06T00:00:00"
+  },
+  {
+    "machine_id": "MCH-014",
+    "safety_zone_id": "SAFE-PLN-001-004",
+    "coverage_type": "PRIMARY",
+    "created_at": "2026-01-03T00:00:00"
+  },
+  {
+    "machine_id": "MCH-014",
+    "safety_zone_id": "SAFE-PLN-001-005",
+    "coverage_type": "SECONDARY",
+    "created_at": "2026-01-03T00:00:00"
+  },
+  {
+    "machine_id": "MCH-015",
+    "safety_zone_id": "SAFE-PLN-001-005",
+    "coverage_type": "PRIMARY",
+    "created_at": "2023-09-05T00:00:00"
+  },
+  {
+    "machine_id": "MCH-015",
+    "safety_zone_id": "SAFE-PLN-001-001",
+    "coverage_type": "SECONDARY",
+    "created_at": "2023-09-05T00:00:00"
+  },
+  {
+    "machine_id": "MCH-016",
+    "safety_zone_id": "SAFE-PLN-002-001",
+    "coverage_type": "PRIMARY",
+    "created_at": "2023-05-23T00:00:00"
+  },
+  {
+    "machine_id": "MCH-016",
+    "safety_zone_id": "SAFE-PLN-002-002",
+    "coverage_type": "SECONDARY",
+    "created_at": "2023-05-23T00:00:00"
+  },
+  {
+    "machine_id": "MCH-017",
+    "safety_zone_id": "SAFE-PLN-002-002",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-06-27T00:00:00"
+  },
+  {
+    "machine_id": "MCH-018",
+    "safety_zone_id": "SAFE-PLN-002-003",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-04-02T00:00:00"
+  },
+  {
+    "machine_id": "MCH-019",
+    "safety_zone_id": "SAFE-PLN-002-004",
+    "coverage_type": "PRIMARY",
+    "created_at": "2026-03-18T00:00:00"
+  },
+  {
+    "machine_id": "MCH-019",
+    "safety_zone_id": "SAFE-PLN-002-005",
+    "coverage_type": "SECONDARY",
+    "created_at": "2026-03-18T00:00:00"
+  },
+  {
+    "machine_id": "MCH-020",
+    "safety_zone_id": "SAFE-PLN-002-005",
+    "coverage_type": "PRIMARY",
+    "created_at": "2023-05-24T00:00:00"
+  },
+  {
+    "machine_id": "MCH-020",
+    "safety_zone_id": "SAFE-PLN-002-001",
+    "coverage_type": "SECONDARY",
+    "created_at": "2023-05-24T00:00:00"
+  },
+  {
+    "machine_id": "MCH-021",
+    "safety_zone_id": "SAFE-PLN-002-001",
+    "coverage_type": "PRIMARY",
+    "created_at": "2023-02-10T00:00:00"
+  },
+  {
+    "machine_id": "MCH-022",
+    "safety_zone_id": "SAFE-PLN-002-002",
+    "coverage_type": "PRIMARY",
+    "created_at": "2023-01-08T00:00:00"
+  },
+  {
+    "machine_id": "MCH-023",
+    "safety_zone_id": "SAFE-PLN-002-003",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-08-24T00:00:00"
+  },
+  {
+    "machine_id": "MCH-024",
+    "safety_zone_id": "SAFE-PLN-002-004",
+    "coverage_type": "PRIMARY",
+    "created_at": "2023-04-12T00:00:00"
+  },
+  {
+    "machine_id": "MCH-024",
+    "safety_zone_id": "SAFE-PLN-002-005",
+    "coverage_type": "SECONDARY",
+    "created_at": "2023-04-12T00:00:00"
+  },
+  {
+    "machine_id": "MCH-025",
+    "safety_zone_id": "SAFE-PLN-002-005",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-02-15T00:00:00"
+  },
+  {
+    "machine_id": "MCH-025",
+    "safety_zone_id": "SAFE-PLN-002-001",
+    "coverage_type": "SECONDARY",
+    "created_at": "2025-02-15T00:00:00"
+  },
+  {
+    "machine_id": "MCH-026",
+    "safety_zone_id": "SAFE-PLN-002-001",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-06-06T00:00:00"
+  },
+  {
+    "machine_id": "MCH-027",
+    "safety_zone_id": "SAFE-PLN-002-002",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-05-24T00:00:00"
+  },
+  {
+    "machine_id": "MCH-028",
+    "safety_zone_id": "SAFE-PLN-002-003",
+    "coverage_type": "PRIMARY",
+    "created_at": "2022-09-12T00:00:00"
+  },
+  {
+    "machine_id": "MCH-029",
+    "safety_zone_id": "SAFE-PLN-002-004",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-04-04T00:00:00"
+  },
+  {
+    "machine_id": "MCH-030",
+    "safety_zone_id": "SAFE-PLN-002-005",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "machine_id": "MCH-031",
+    "safety_zone_id": "SAFE-PLN-003-001",
+    "coverage_type": "PRIMARY",
+    "created_at": "2023-09-06T00:00:00"
+  },
+  {
+    "machine_id": "MCH-032",
+    "safety_zone_id": "SAFE-PLN-003-002",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-09-30T00:00:00"
+  },
+  {
+    "machine_id": "MCH-033",
+    "safety_zone_id": "SAFE-PLN-003-003",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-07-04T00:00:00"
+  },
+  {
+    "machine_id": "MCH-034",
+    "safety_zone_id": "SAFE-PLN-003-004",
+    "coverage_type": "PRIMARY",
+    "created_at": "2023-01-02T00:00:00"
+  },
+  {
+    "machine_id": "MCH-034",
+    "safety_zone_id": "SAFE-PLN-003-005",
+    "coverage_type": "SECONDARY",
+    "created_at": "2023-01-02T00:00:00"
+  },
+  {
+    "machine_id": "MCH-035",
+    "safety_zone_id": "SAFE-PLN-003-005",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-09-29T00:00:00"
+  },
+  {
+    "machine_id": "MCH-036",
+    "safety_zone_id": "SAFE-PLN-003-001",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-07-07T00:00:00"
+  },
+  {
+    "machine_id": "MCH-037",
+    "safety_zone_id": "SAFE-PLN-003-002",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-06-22T00:00:00"
+  },
+  {
+    "machine_id": "MCH-037",
+    "safety_zone_id": "SAFE-PLN-003-003",
+    "coverage_type": "SECONDARY",
+    "created_at": "2024-06-22T00:00:00"
+  },
+  {
+    "machine_id": "MCH-038",
+    "safety_zone_id": "SAFE-PLN-003-003",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-07-28T00:00:00"
+  },
+  {
+    "machine_id": "MCH-039",
+    "safety_zone_id": "SAFE-PLN-003-004",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-05-12T00:00:00"
+  },
+  {
+    "machine_id": "MCH-040",
+    "safety_zone_id": "SAFE-PLN-003-005",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-03-15T00:00:00"
+  },
+  {
+    "machine_id": "MCH-040",
+    "safety_zone_id": "SAFE-PLN-003-001",
+    "coverage_type": "SECONDARY",
+    "created_at": "2024-03-15T00:00:00"
+  },
+  {
+    "machine_id": "MCH-041",
+    "safety_zone_id": "SAFE-PLN-003-001",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-08-02T00:00:00"
+  },
+  {
+    "machine_id": "MCH-042",
+    "safety_zone_id": "SAFE-PLN-003-002",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-02-15T00:00:00"
+  },
+  {
+    "machine_id": "MCH-043",
+    "safety_zone_id": "SAFE-PLN-003-003",
+    "coverage_type": "PRIMARY",
+    "created_at": "2022-11-22T00:00:00"
+  },
+  {
+    "machine_id": "MCH-043",
+    "safety_zone_id": "SAFE-PLN-003-004",
+    "coverage_type": "SECONDARY",
+    "created_at": "2022-11-22T00:00:00"
+  },
+  {
+    "machine_id": "MCH-044",
+    "safety_zone_id": "SAFE-PLN-003-004",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-08-08T00:00:00"
+  },
+  {
+    "machine_id": "MCH-045",
+    "safety_zone_id": "SAFE-PLN-003-005",
+    "coverage_type": "PRIMARY",
+    "created_at": "2026-03-03T00:00:00"
+  },
+  {
+    "machine_id": "MCH-045",
+    "safety_zone_id": "SAFE-PLN-003-001",
+    "coverage_type": "SECONDARY",
+    "created_at": "2026-03-03T00:00:00"
+  },
+  {
+    "machine_id": "MCH-046",
+    "safety_zone_id": "SAFE-PLN-004-001",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-07-30T00:00:00"
+  },
+  {
+    "machine_id": "MCH-047",
+    "safety_zone_id": "SAFE-PLN-004-002",
+    "coverage_type": "PRIMARY",
+    "created_at": "2023-07-30T00:00:00"
+  },
+  {
+    "machine_id": "MCH-048",
+    "safety_zone_id": "SAFE-PLN-004-003",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-05-03T00:00:00"
+  },
+  {
+    "machine_id": "MCH-049",
+    "safety_zone_id": "SAFE-PLN-004-004",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-07-09T00:00:00"
+  },
+  {
+    "machine_id": "MCH-050",
+    "safety_zone_id": "SAFE-PLN-004-005",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-05-04T00:00:00"
+  },
+  {
+    "machine_id": "MCH-050",
+    "safety_zone_id": "SAFE-PLN-004-001",
+    "coverage_type": "SECONDARY",
+    "created_at": "2025-05-04T00:00:00"
+  },
+  {
+    "machine_id": "MCH-051",
+    "safety_zone_id": "SAFE-PLN-004-001",
+    "coverage_type": "PRIMARY",
+    "created_at": "2023-08-31T00:00:00"
+  },
+  {
+    "machine_id": "MCH-051",
+    "safety_zone_id": "SAFE-PLN-004-002",
+    "coverage_type": "SECONDARY",
+    "created_at": "2023-08-31T00:00:00"
+  },
+  {
+    "machine_id": "MCH-052",
+    "safety_zone_id": "SAFE-PLN-004-002",
+    "coverage_type": "PRIMARY",
+    "created_at": "2022-09-08T00:00:00"
+  },
+  {
+    "machine_id": "MCH-053",
+    "safety_zone_id": "SAFE-PLN-004-003",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-09-13T00:00:00"
+  },
+  {
+    "machine_id": "MCH-054",
+    "safety_zone_id": "SAFE-PLN-004-004",
+    "coverage_type": "PRIMARY",
+    "created_at": "2022-10-31T00:00:00"
+  },
+  {
+    "machine_id": "MCH-054",
+    "safety_zone_id": "SAFE-PLN-004-005",
+    "coverage_type": "SECONDARY",
+    "created_at": "2022-10-31T00:00:00"
+  },
+  {
+    "machine_id": "MCH-055",
+    "safety_zone_id": "SAFE-PLN-004-005",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-10-27T00:00:00"
+  },
+  {
+    "machine_id": "MCH-055",
+    "safety_zone_id": "SAFE-PLN-004-001",
+    "coverage_type": "SECONDARY",
+    "created_at": "2024-10-27T00:00:00"
+  },
+  {
+    "machine_id": "MCH-056",
+    "safety_zone_id": "SAFE-PLN-004-001",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-05-16T00:00:00"
+  },
+  {
+    "machine_id": "MCH-056",
+    "safety_zone_id": "SAFE-PLN-004-002",
+    "coverage_type": "SECONDARY",
+    "created_at": "2025-05-16T00:00:00"
+  },
+  {
+    "machine_id": "MCH-057",
+    "safety_zone_id": "SAFE-PLN-004-002",
+    "coverage_type": "PRIMARY",
+    "created_at": "2026-01-07T00:00:00"
+  },
+  {
+    "machine_id": "MCH-058",
+    "safety_zone_id": "SAFE-PLN-004-003",
+    "coverage_type": "PRIMARY",
+    "created_at": "2024-03-05T00:00:00"
+  },
+  {
+    "machine_id": "MCH-058",
+    "safety_zone_id": "SAFE-PLN-004-004",
+    "coverage_type": "SECONDARY",
+    "created_at": "2024-03-05T00:00:00"
+  },
+  {
+    "machine_id": "MCH-059",
+    "safety_zone_id": "SAFE-PLN-004-004",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-06-16T00:00:00"
+  },
+  {
+    "machine_id": "MCH-060",
+    "safety_zone_id": "SAFE-PLN-004-005",
+    "coverage_type": "PRIMARY",
+    "created_at": "2025-08-11T00:00:00"
+  }
+]

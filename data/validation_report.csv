@@ -1,0 +1,151 @@
+check_name,entity_type,entity_id,severity,is_intentional_anomaly,description
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-034-000340-01,HIGH,True,Ack ACK-ALM-MCH-034-000340-01 (2026-10-01 04:52:34.652178) precedes alarm ALM-MCH-034-000340 (2026-10-01 04:55:44).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-006-000544-01,HIGH,True,Ack ACK-ALM-MCH-006-000544-01 (2026-10-03 03:06:21.772572) precedes alarm ALM-MCH-006-000544 (2026-10-03 03:07:29).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-016-000474-01,HIGH,True,Ack ACK-ALM-MCH-016-000474-01 (2026-10-04 07:24:39.282667) precedes alarm ALM-MCH-016-000474 (2026-10-04 07:29:06).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-052-000214-01,HIGH,True,Ack ACK-ALM-MCH-052-000214-01 (2026-10-04 13:35:38.938227) precedes alarm ALM-MCH-052-000214 (2026-10-04 13:40:16).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-026-000211-01,HIGH,True,Ack ACK-ALM-MCH-026-000211-01 (2026-10-04 20:43:20.757908) precedes alarm ALM-MCH-026-000211 (2026-10-04 20:46:02).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-051-000347-01,HIGH,True,Ack ACK-ALM-MCH-051-000347-01 (2026-10-05 05:49:39.624158) precedes alarm ALM-MCH-051-000347 (2026-10-05 05:54:24).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-007-000503-01,HIGH,True,Ack ACK-ALM-MCH-007-000503-01 (2026-10-07 17:19:50.330295) precedes alarm ALM-MCH-007-000503 (2026-10-07 17:23:20).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-043-000106-01,HIGH,True,Ack ACK-ALM-MCH-043-000106-01 (2026-10-07 21:10:39.914462) precedes alarm ALM-MCH-043-000106 (2026-10-07 21:12:21).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-008-001365-01,HIGH,True,Ack ACK-ALM-MCH-008-001365-01 (2026-10-08 07:17:03.655864) precedes alarm ALM-MCH-008-001365 (2026-10-08 07:21:08).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-023-000732-01,HIGH,True,Ack ACK-ALM-MCH-023-000732-01 (2026-10-09 09:08:14.130119) precedes alarm ALM-MCH-023-000732 (2026-10-09 09:12:35).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-014-000622-01,HIGH,True,Ack ACK-ALM-MCH-014-000622-01 (2026-10-09 14:49:42.201322) precedes alarm ALM-MCH-014-000622 (2026-10-09 14:53:46).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-038-000112-01,HIGH,True,Ack ACK-ALM-MCH-038-000112-01 (2026-10-10 00:08:10.407591) precedes alarm ALM-MCH-038-000112 (2026-10-10 00:11:24).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-021-000547-01,HIGH,True,Ack ACK-ALM-MCH-021-000547-01 (2026-10-10 09:58:48.739163) precedes alarm ALM-MCH-021-000547 (2026-10-10 10:02:44).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-058-000015-01,HIGH,True,Ack ACK-ALM-MCH-058-000015-01 (2026-10-11 22:56:35.957602) precedes alarm ALM-MCH-058-000015 (2026-10-11 22:58:00).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-021-000690-01,HIGH,True,Ack ACK-ALM-MCH-021-000690-01 (2026-10-13 12:33:22.159420) precedes alarm ALM-MCH-021-000690 (2026-10-13 12:37:08).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-054-000238-01,HIGH,True,Ack ACK-ALM-MCH-054-000238-01 (2026-10-13 15:22:06.200360) precedes alarm ALM-MCH-054-000238 (2026-10-13 15:25:12).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-023-000099-01,HIGH,True,Ack ACK-ALM-MCH-023-000099-01 (2026-10-15 15:46:43.083772) precedes alarm ALM-MCH-023-000099 (2026-10-15 15:49:20).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-021-000590-01,HIGH,True,Ack ACK-ALM-MCH-021-000590-01 (2026-10-16 07:56:08.896227) precedes alarm ALM-MCH-021-000590 (2026-10-16 08:00:21).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-003-000477-01,HIGH,True,Ack ACK-ALM-MCH-003-000477-01 (2026-10-17 15:43:12.348492) precedes alarm ALM-MCH-003-000477 (2026-10-17 15:45:32).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-052-000495-01,HIGH,True,Ack ACK-ALM-MCH-052-000495-01 (2026-10-20 17:32:06.555670) precedes alarm ALM-MCH-052-000495 (2026-10-20 17:35:03).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-054-000697-01,HIGH,True,Ack ACK-ALM-MCH-054-000697-01 (2026-10-21 13:58:25.164688) precedes alarm ALM-MCH-054-000697 (2026-10-21 14:03:04).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-044-000216-01,HIGH,True,Ack ACK-ALM-MCH-044-000216-01 (2026-10-21 14:19:00.704896) precedes alarm ALM-MCH-044-000216 (2026-10-21 14:23:46).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-043-001089-01,HIGH,True,Ack ACK-ALM-MCH-043-001089-01 (2026-10-23 20:56:37.156505) precedes alarm ALM-MCH-043-001089 (2026-10-23 20:57:45).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-004-000078-01,HIGH,True,Ack ACK-ALM-MCH-004-000078-01 (2026-10-24 01:05:27.109348) precedes alarm ALM-MCH-004-000078 (2026-10-24 01:08:02).
+Acknowledgement Ordering,acknowledgement,ACK-ALM-MCH-003-001264-01,HIGH,True,Ack ACK-ALM-MCH-003-001264-01 (2026-10-25 04:55:53.385837) precedes alarm ALM-MCH-003-001264 (2026-10-25 04:59:27).
+Incident Traceability,incident,INC-2026-000003,CRITICAL,True,Incident INC-2026-000003 has no valid triggering alarm reference.
+Incident Traceability,incident,INC-2026-000016,CRITICAL,True,Incident INC-2026-000016 has no valid triggering alarm reference.
+Incident Traceability,incident,INC-2026-000026,CRITICAL,True,Incident INC-2026-000026 has no valid triggering alarm reference.
+Incident Traceability,incident,INC-2026-000036,CRITICAL,True,Incident INC-2026-000036 has no valid triggering alarm reference.
+Incident Traceability,incident,INC-2026-000045,CRITICAL,True,Incident INC-2026-000045 has no valid triggering alarm reference.
+Incident Traceability,incident,INC-2026-000048,CRITICAL,True,Incident INC-2026-000048 has no valid triggering alarm reference.
+Incident Traceability,incident,INC-2026-000065,CRITICAL,True,Incident INC-2026-000065 has no valid triggering alarm reference.
+Incident Traceability,incident,INC-2026-000073,CRITICAL,True,Incident INC-2026-000073 has no valid triggering alarm reference.
+Incident Traceability,incident,INC-2026-000072,CRITICAL,True,Incident INC-2026-000072 has no valid triggering alarm reference.
+Incident Traceability,incident,INC-2026-000085,CRITICAL,True,Incident INC-2026-000085 has no valid triggering alarm reference.
+Incident Traceability,incident,INC-2026-000092,CRITICAL,True,Incident INC-2026-000092 has no valid triggering alarm reference.
+Incident Traceability,incident,INC-2026-000103,CRITICAL,True,Incident INC-2026-000103 has no valid triggering alarm reference.
+Incident Traceability,incident,INC-2026-000108,CRITICAL,True,Incident INC-2026-000108 has no valid triggering alarm reference.
+Incident Traceability,incident,INC-2026-000118,CRITICAL,True,Incident INC-2026-000118 has no valid triggering alarm reference.
+Incident Traceability,incident,INC-2026-000120,CRITICAL,True,Incident INC-2026-000120 has no valid triggering alarm reference.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000002-01,HIGH,True,Action ACT-INC-2026-000002-01 is CLOSED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000002-02,HIGH,True,Action ACT-INC-2026-000002-02 is CLOSED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000010-01,HIGH,True,Action ACT-INC-2026-000010-01 is CLOSED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000015-01,HIGH,True,Action ACT-INC-2026-000015-01 is CLOSED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000017-01,HIGH,True,Action ACT-INC-2026-000017-01 is CLOSED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000020-02,HIGH,True,Action ACT-INC-2026-000020-02 is CLOSED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000023-01,HIGH,True,Action ACT-INC-2026-000023-01 is CLOSED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000024-01,HIGH,True,Action ACT-INC-2026-000024-01 is CLOSED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000062-01,HIGH,True,Action ACT-INC-2026-000062-01 is CLOSED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000072-01,HIGH,True,Action ACT-INC-2026-000072-01 is CLOSED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000091-02,HIGH,True,Action ACT-INC-2026-000091-02 is CLOSED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000094-02,HIGH,True,Action ACT-INC-2026-000094-02 is CLOSED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000102-01,HIGH,True,Action ACT-INC-2026-000102-01 is CLOSED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000114-01,HIGH,True,Action ACT-INC-2026-000114-01 is CLOSED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000117-01,HIGH,True,Action ACT-INC-2026-000117-01 is CLOSED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000048-01,HIGH,True,Action ACT-INC-2026-000048-01 is COMPLETED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000052-02,HIGH,True,Action ACT-INC-2026-000052-02 is COMPLETED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000073-01,HIGH,True,Action ACT-INC-2026-000073-01 is COMPLETED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000095-01,HIGH,True,Action ACT-INC-2026-000095-01 is COMPLETED but verification is incomplete.
+Corrective-Action Lifecycle,corrective_action,ACT-INC-2026-000108-01,HIGH,True,Action ACT-INC-2026-000108-01 is COMPLETED but verification is incomplete.
+Interlock State Validity,interlock,ITL-MCH-008-002,CRITICAL,True,Interlock ITL-MCH-008-002 is in FAULT while machine MCH-008 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-009-001,CRITICAL,True,Interlock ITL-MCH-009-001 is in BYPASSED while machine MCH-009 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-009-004,CRITICAL,True,Interlock ITL-MCH-009-004 is in BYPASSED while machine MCH-009 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-013-001,CRITICAL,True,Interlock ITL-MCH-013-001 is in BYPASSED while machine MCH-013 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-013-002,CRITICAL,True,Interlock ITL-MCH-013-002 is in BYPASSED while machine MCH-013 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-013-004,CRITICAL,True,Interlock ITL-MCH-013-004 is in BYPASSED while machine MCH-013 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-024-001,CRITICAL,True,Interlock ITL-MCH-024-001 is in FAULT while machine MCH-024 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-026-002,CRITICAL,True,Interlock ITL-MCH-026-002 is in BYPASSED while machine MCH-026 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-027-001,CRITICAL,True,Interlock ITL-MCH-027-001 is in BYPASSED while machine MCH-027 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-029-002,CRITICAL,True,Interlock ITL-MCH-029-002 is in FAULT while machine MCH-029 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-031-002,CRITICAL,True,Interlock ITL-MCH-031-002 is in FAULT while machine MCH-031 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-033-001,CRITICAL,True,Interlock ITL-MCH-033-001 is in BYPASSED while machine MCH-033 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-035-004,CRITICAL,True,Interlock ITL-MCH-035-004 is in BYPASSED while machine MCH-035 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-039-001,CRITICAL,True,Interlock ITL-MCH-039-001 is in BYPASSED while machine MCH-039 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-049-001,CRITICAL,True,Interlock ITL-MCH-049-001 is in BYPASSED while machine MCH-049 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-050-002,CRITICAL,True,Interlock ITL-MCH-050-002 is in FAULT while machine MCH-050 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-051-002,CRITICAL,True,Interlock ITL-MCH-051-002 is in FAULT while machine MCH-051 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-057-004,CRITICAL,True,Interlock ITL-MCH-057-004 is in BYPASSED while machine MCH-057 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-057-001,CRITICAL,True,Interlock ITL-MCH-057-001 is in FAULT while machine MCH-057 is RUNNING.
+Interlock State Validity,interlock,ITL-MCH-059-001,CRITICAL,True,Interlock ITL-MCH-059-001 is in BYPASSED while machine MCH-059 is RUNNING.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-002-000598,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-002-000598' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-002-000598-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-002-000598' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-006-000619,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-006-000619' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-006-000619-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-006-000619' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-006-000747,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-006-000747' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-006-000747-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-006-000747' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-007-000696,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-007-000696' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-007-000696-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-007-000696' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-009-000071,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-009-000071' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-009-000071-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-009-000071' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-009-000205,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-009-000205' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-009-000205-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-009-000205' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-009-000282,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-009-000282' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-009-000282-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-009-000282' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-012-000562,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-012-000562' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-012-000562-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-012-000562' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-015-000226,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-015-000226' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-015-000226-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-015-000226' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-015-000309,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-015-000309' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-015-000309-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-015-000309' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-016-000081,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-016-000081' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-016-000081-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-016-000081' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-017-000117,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-017-000117' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-017-000117-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-017-000117' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-017-000371,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-017-000371' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-017-000371-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-017-000371' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-022-000761,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-022-000761' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-022-000761-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-022-000761' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-024-000452,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-024-000452' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-024-000452-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-024-000452' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-025-000558,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-025-000558' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-025-000558-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-025-000558' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-029-000367,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-029-000367' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-029-000367-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-029-000367' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-029-000422,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-029-000422' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-029-000422-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-029-000422' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-030-000360,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-030-000360' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-030-000360-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-030-000360' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-032-000388,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-032-000388' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-032-000388-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-032-000388' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-033-000583,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-033-000583' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-033-000583-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-033-000583' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-035-000062,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-035-000062' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-035-000062-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-035-000062' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-040-000559,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-040-000559' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-040-000559-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-040-000559' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-043-000859,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-043-000859' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-043-000859-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-043-000859' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-043-001020,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-043-001020' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-043-001020-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-043-001020' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-044-000231,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-044-000231' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-044-000231-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-044-000231' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-046-000374,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-046-000374' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-046-000374-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-046-000374' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-046-000513,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-046-000513' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-046-000513-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-046-000513' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-049-000027,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-049-000027' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-049-000027-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-049-000027' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-049-000591,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-049-000591' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-049-000591-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-049-000591' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-050-000649,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-050-000649' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-050-000649-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-050-000649' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-051-000668,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-051-000668' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-051-000668-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-051-000668' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-058-000020,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-058-000020' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-058-000020-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-058-000020' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-058-000441,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-058-000441' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-058-000441-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-058-000441' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-059-000503,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-059-000503' replayed 2 times.
+Duplicate Event Fingerprints,alarm_event,ALM-MCH-059-000503-DUP,HIGH,True,Duplicate source_event_id 'SRC-EVT-MCH-059-000503' replayed 2 times.

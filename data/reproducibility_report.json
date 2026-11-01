@@ -1,0 +1,165 @@
+{
+  "verified_at": "2026-11-01T06:10:32.987737",
+  "seed": 20261022,
+  "is_reproducible": true,
+  "run_1_duration_seconds": 2.63,
+  "run_2_duration_seconds": 2.73,
+  "total_tables_checked": 13,
+  "table_count_comparisons": {
+    "plants": {
+      "run_1": 4,
+      "run_2": 4,
+      "match": true
+    },
+    "safety_zones": {
+      "run_1": 20,
+      "run_2": 20,
+      "match": true
+    },
+    "machines": {
+      "run_1": 60,
+      "run_2": 60,
+      "match": true
+    },
+    "machine_safety_zones": {
+      "run_1": 86,
+      "run_2": 86,
+      "match": true
+    },
+    "interlocks": {
+      "run_1": 206,
+      "run_2": 206,
+      "match": true
+    },
+    "alarm_definitions": {
+      "run_1": 200,
+      "run_2": 200,
+      "match": true
+    },
+    "operator_shifts": {
+      "run_1": 360,
+      "run_2": 360,
+      "match": true
+    },
+    "machine_state_events": {
+      "run_1": 1267,
+      "run_2": 1267,
+      "match": true
+    },
+    "alarm_events": {
+      "run_1": 5035,
+      "run_2": 5035,
+      "match": true
+    },
+    "acknowledgements": {
+      "run_1": 5000,
+      "run_2": 5000,
+      "match": true
+    },
+    "incidents": {
+      "run_1": 120,
+      "run_2": 120,
+      "match": true
+    },
+    "incident_alarm_events": {
+      "run_1": 120,
+      "run_2": 120,
+      "match": true
+    },
+    "corrective_actions": {
+      "run_1": 179,
+      "run_2": 179,
+      "match": true
+    }
+  },
+  "id_sequence_comparisons": {
+    "plants": true,
+    "safety_zones": true,
+    "machines": true,
+    "machine_safety_zones": true,
+    "interlocks": true,
+    "alarm_definitions": true,
+    "operator_shifts": true,
+    "machine_state_events": true,
+    "alarm_events": true,
+    "acknowledgements": true,
+    "incidents": true,
+    "incident_alarm_events": true,
+    "corrective_actions": true
+  },
+  "checksum_comparisons": {
+    "plants.csv": {
+      "match": true,
+      "hash_1": "1acde7bf0e6787a7a439c283a2a9ab043790cb66229e88b54f764e4fc5e89856",
+      "hash_2": "1acde7bf0e6787a7a439c283a2a9ab043790cb66229e88b54f764e4fc5e89856"
+    },
+    "safety_zones.csv": {
+      "match": true,
+      "hash_1": "18e04281fb703f676f8cd46cc45be315fd7f4e541708aa561a7978c05d1e9251",
+      "hash_2": "18e04281fb703f676f8cd46cc45be315fd7f4e541708aa561a7978c05d1e9251"
+    },
+    "machines.csv": {
+      "match": true,
+      "hash_1": "90dc8609403623ae95a72a0f18d8029ab5299cde9c66bbcdb3f4f316ea6c513a",
+      "hash_2": "90dc8609403623ae95a72a0f18d8029ab5299cde9c66bbcdb3f4f316ea6c513a"
+    },
+    "machine_safety_zones.csv": {
+      "match": true,
+      "hash_1": "66185f9f701c8e305ff2631e689eebba1d4c1f9ee4504bfc94ed44e512132e4a",
+      "hash_2": "66185f9f701c8e305ff2631e689eebba1d4c1f9ee4504bfc94ed44e512132e4a"
+    },
+    "interlocks.csv": {
+      "match": true,
+      "hash_1": "50db42a77cbc1e5a86010b25a82ed5eb777122501253aeb1f619f4a83192975d",
+      "hash_2": "50db42a77cbc1e5a86010b25a82ed5eb777122501253aeb1f619f4a83192975d"
+    },
+    "alarm_definitions.csv": {
+      "match": true,
+      "hash_1": "5b63581836a5b5022987f8676db6e261eee02900e4715fff2cafdd71be168c74",
+      "hash_2": "5b63581836a5b5022987f8676db6e261eee02900e4715fff2cafdd71be168c74"
+    },
+    "operator_shifts.csv": {
+      "match": true,
+      "hash_1": "8c852622deb98686184e287c825cd1155308197d10925665d0092ac756f4f1ea",
+      "hash_2": "8c852622deb98686184e287c825cd1155308197d10925665d0092ac756f4f1ea"
+    },
+    "machine_state_events.csv": {
+      "match": true,
+      "hash_1": "0baa32f12de1f3cf87d54a11d0dd4c1c438aa74fd099139c80b357096cd2983e",
+      "hash_2": "0baa32f12de1f3cf87d54a11d0dd4c1c438aa74fd099139c80b357096cd2983e"
+    },
+    "alarm_events.csv": {
+      "match": true,
+      "hash_1": "8b0c2be039ac20c65b5706e7d6c4bd0113cbbf958d6c5f89dc1c01fcd29b42a1",
+      "hash_2": "8b0c2be039ac20c65b5706e7d6c4bd0113cbbf958d6c5f89dc1c01fcd29b42a1"
+    },
+    "acknowledgements.csv": {
+      "match": true,
+      "hash_1": "14355524bf1c68beaac3e36967f20db813e2750b8727afb338c43af2cbcb4630",
+      "hash_2": "14355524bf1c68beaac3e36967f20db813e2750b8727afb338c43af2cbcb4630"
+    },
+    "incidents.csv": {
+      "match": true,
+      "hash_1": "b5acdeab622f66b03f2bb77bfa9d1c833b7b93f8c6f2943c9d0f64067fdbc22d",
+      "hash_2": "b5acdeab622f66b03f2bb77bfa9d1c833b7b93f8c6f2943c9d0f64067fdbc22d"
+    },
+    "incident_alarm_events.csv": {
+      "match": true,
+      "hash_1": "c74bb4dbcf6703c54429c9ff0b4e1e878ab13768fa3a3d419bbda0199e0d88bd",
+      "hash_2": "c74bb4dbcf6703c54429c9ff0b4e1e878ab13768fa3a3d419bbda0199e0d88bd"
+    },
+    "corrective_actions.csv": {
+      "match": true,
+      "hash_1": "4069a247164e20664991b96e79e014c85f9ebd97fd01b1c9c07f66f1549ef015",
+      "hash_2": "4069a247164e20664991b96e79e014c85f9ebd97fd01b1c9c07f66f1549ef015"
+    },
+    "ground_truth.csv": {
+      "match": true,
+      "hash_1": "a9d1e3e18beb9c61f718a34a97f41fe9d1f463e9e746935eecdf87e803c63f5e",
+      "hash_2": "a9d1e3e18beb9c61f718a34a97f41fe9d1f463e9e746935eecdf87e803c63f5e"
+    }
+  },
+  "ground_truth_count_match": true,
+  "ground_truth_ids_match": true,
+  "mismatches": []
+}

@@ -1,0 +1,117 @@
+{
+  "platform_name": "Industrial Safety Intelligence Platform",
+  "generator_version": "1.0.0",
+  "generated_at": "2026-11-01T06:10:53.036634",
+  "duration_seconds": 4.75,
+  "config": {
+    "seed": 20261022,
+    "plants": 4,
+    "machines": 60,
+    "alarm_definitions": 200,
+    "alarm_events_requested": 50000,
+    "simulation_days": 30,
+    "start_date": "2026-10-01T00:00:00"
+  },
+  "tables": {
+    "plants": {
+      "count": 4,
+      "csv_path": "data\\exports\\csv\\plants.csv",
+      "json_path": "data\\exports\\json\\plants.json",
+      "sha256": "1acde7bf0e6787a7a439c283a2a9ab043790cb66229e88b54f764e4fc5e89856"
+    },
+    "safety_zones": {
+      "count": 20,
+      "csv_path": "data\\exports\\csv\\safety_zones.csv",
+      "json_path": "data\\exports\\json\\safety_zones.json",
+      "sha256": "18e04281fb703f676f8cd46cc45be315fd7f4e541708aa561a7978c05d1e9251"
+    },
+    "machines": {
+      "count": 60,
+      "csv_path": "data\\exports\\csv\\machines.csv",
+      "json_path": "data\\exports\\json\\machines.json",
+      "sha256": "90dc8609403623ae95a72a0f18d8029ab5299cde9c66bbcdb3f4f316ea6c513a"
+    },
+    "machine_safety_zones": {
+      "count": 86,
+      "csv_path": "data\\exports\\csv\\machine_safety_zones.csv",
+      "json_path": "data\\exports\\json\\machine_safety_zones.json",
+      "sha256": "66185f9f701c8e305ff2631e689eebba1d4c1f9ee4504bfc94ed44e512132e4a"
+    },
+    "interlocks": {
+      "count": 206,
+      "csv_path": "data\\exports\\csv\\interlocks.csv",
+      "json_path": "data\\exports\\json\\interlocks.json",
+      "sha256": "a774b4ccf2d3ef9ac7174a7b69cbf2f4e66956f01d09000f62fb8b7b27b6d304"
+    },
+    "alarm_definitions": {
+      "count": 200,
+      "csv_path": "data\\exports\\csv\\alarm_definitions.csv",
+      "json_path": "data\\exports\\json\\alarm_definitions.json",
+      "sha256": "5b63581836a5b5022987f8676db6e261eee02900e4715fff2cafdd71be168c74"
+    },
+    "operator_shifts": {
+      "count": 360,
+      "csv_path": "data\\exports\\csv\\operator_shifts.csv",
+      "json_path": "data\\exports\\json\\operator_shifts.json",
+      "sha256": "8c852622deb98686184e287c825cd1155308197d10925665d0092ac756f4f1ea"
+    },
+    "machine_state_events": {
+      "count": 1267,
+      "csv_path": "data\\exports\\csv\\machine_state_events.csv",
+      "json_path": "data\\exports\\json\\machine_state_events.json",
+      "sha256": "0baa32f12de1f3cf87d54a11d0dd4c1c438aa74fd099139c80b357096cd2983e"
+    },
+    "alarm_events": {
+      "count": 50035,
+      "csv_path": "data\\exports\\csv\\alarm_events.csv",
+      "json_path": "data\\exports\\json\\alarm_events.json",
+      "sha256": "a6aa169bb5d02a19f6a6f02c379b85a83aa0b01e717d10e94f07eb1e536f38e2"
+    },
+    "acknowledgements": {
+      "count": 50000,
+      "csv_path": "data\\exports\\csv\\acknowledgements.csv",
+      "json_path": "data\\exports\\json\\acknowledgements.json",
+      "sha256": "875f4d99199799e93b7414c0e987c7ccde6fc8b4d188d418b6bcd74d86bca96b"
+    },
+    "incidents": {
+      "count": 120,
+      "csv_path": "data\\exports\\csv\\incidents.csv",
+      "json_path": "data\\exports\\json\\incidents.json",
+      "sha256": "7fc6e72c9820ddf71d3b4c50b28b0bc5f0bb44d682dfdb13edc3b17b7da59fbf"
+    },
+    "incident_alarm_events": {
+      "count": 120,
+      "csv_path": "data\\exports\\csv\\incident_alarm_events.csv",
+      "json_path": "data\\exports\\json\\incident_alarm_events.json",
+      "sha256": "b244fb98fcf7a5a66408d5d5dcaa1e89fef2f495cd5544142f2b6f71d4e68089"
+    },
+    "corrective_actions": {
+      "count": 180,
+      "csv_path": "data\\exports\\csv\\corrective_actions.csv",
+      "json_path": "data\\exports\\json\\corrective_actions.json",
+      "sha256": "ebe801b4a1260747581e7ad1c03f67543ac62a7a741be0af4f53a28d1025eb9d"
+    }
+  },
+  "checksums": {
+    "plants.csv": "1acde7bf0e6787a7a439c283a2a9ab043790cb66229e88b54f764e4fc5e89856",
+    "safety_zones.csv": "18e04281fb703f676f8cd46cc45be315fd7f4e541708aa561a7978c05d1e9251",
+    "machines.csv": "90dc8609403623ae95a72a0f18d8029ab5299cde9c66bbcdb3f4f316ea6c513a",
+    "machine_safety_zones.csv": "66185f9f701c8e305ff2631e689eebba1d4c1f9ee4504bfc94ed44e512132e4a",
+    "interlocks.csv": "a774b4ccf2d3ef9ac7174a7b69cbf2f4e66956f01d09000f62fb8b7b27b6d304",
+    "alarm_definitions.csv": "5b63581836a5b5022987f8676db6e261eee02900e4715fff2cafdd71be168c74",
+    "operator_shifts.csv": "8c852622deb98686184e287c825cd1155308197d10925665d0092ac756f4f1ea",
+    "machine_state_events.csv": "0baa32f12de1f3cf87d54a11d0dd4c1c438aa74fd099139c80b357096cd2983e",
+    "alarm_events.csv": "a6aa169bb5d02a19f6a6f02c379b85a83aa0b01e717d10e94f07eb1e536f38e2",
+    "acknowledgements.csv": "875f4d99199799e93b7414c0e987c7ccde6fc8b4d188d418b6bcd74d86bca96b",
+    "incidents.csv": "7fc6e72c9820ddf71d3b4c50b28b0bc5f0bb44d682dfdb13edc3b17b7da59fbf",
+    "incident_alarm_events.csv": "b244fb98fcf7a5a66408d5d5dcaa1e89fef2f495cd5544142f2b6f71d4e68089",
+    "corrective_actions.csv": "ebe801b4a1260747581e7ad1c03f67543ac62a7a741be0af4f53a28d1025eb9d",
+    "ground_truth.csv": "c99003334912baabd15fc7bf2cc14f85e6bf06ff0f0b7dafd2a31819b3380b01"
+  },
+  "ground_truth": {
+    "count": 115,
+    "csv_path": "data\\ground_truth.csv",
+    "json_path": "data\\ground_truth.json",
+    "sha256": "c99003334912baabd15fc7bf2cc14f85e6bf06ff0f0b7dafd2a31819b3380b01"
+  }
+}

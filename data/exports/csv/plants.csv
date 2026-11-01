@@ -1,0 +1,5 @@
+id,name,location,operational_status,total_lines,safety_score,created_at,updated_at
+PLN-001,Apex Advanced Propulsion Facility,"Detroit, Michigan, USA",ACTIVE,6,94.5,2026-10-01T00:00:00,2026-10-01T00:00:00
+PLN-002,Bavaria Precision Robotics & Pressworks,"Munich, Germany",ACTIVE,8,97.2,2026-10-01T00:00:00,2026-10-01T00:00:00
+PLN-003,Shenzhen Autonomous Assembly Gigafactory,"Shenzhen, Guangdong, China",ACTIVE,12,91.8,2026-10-01T00:00:00,2026-10-01T00:00:00
+PLN-004,Solway Chemical Synthesis & Cryogenics,"Billingham, Teesside, UK",ACTIVE,5,89.4,2026-10-01T00:00:00,2026-10-01T00:00:00

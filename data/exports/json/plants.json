@@ -1,0 +1,42 @@
+[
+  {
+    "id": "PLN-001",
+    "name": "Apex Advanced Propulsion Facility",
+    "location": "Detroit, Michigan, USA",
+    "operational_status": "ACTIVE",
+    "total_lines": 6,
+    "safety_score": 94.5,
+    "created_at": "2026-10-01T00:00:00",
+    "updated_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "PLN-002",
+    "name": "Bavaria Precision Robotics & Pressworks",
+    "location": "Munich, Germany",
+    "operational_status": "ACTIVE",
+    "total_lines": 8,
+    "safety_score": 97.2,
+    "created_at": "2026-10-01T00:00:00",
+    "updated_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "PLN-003",
+    "name": "Shenzhen Autonomous Assembly Gigafactory",
+    "location": "Shenzhen, Guangdong, China",
+    "operational_status": "ACTIVE",
+    "total_lines": 12,
+    "safety_score": 91.8,
+    "created_at": "2026-10-01T00:00:00",
+    "updated_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "PLN-004",
+    "name": "Solway Chemical Synthesis & Cryogenics",
+    "location": "Billingham, Teesside, UK",
+    "operational_status": "ACTIVE",
+    "total_lines": 5,
+    "safety_score": 89.4,
+    "created_at": "2026-10-01T00:00:00",
+    "updated_at": "2026-10-01T00:00:00"
+  }
+]

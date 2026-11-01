@@ -1,0 +1,3242 @@
+[
+  {
+    "id": "SHF-000001",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-01T06:00:00",
+    "shift_end": "2026-10-01T14:00:00",
+    "created_at": "2026-09-30T06:00:00"
+  },
+  {
+    "id": "SHF-000002",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-01T14:00:00",
+    "shift_end": "2026-10-01T22:00:00",
+    "created_at": "2026-09-30T14:00:00"
+  },
+  {
+    "id": "SHF-000003",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-01T22:00:00",
+    "shift_end": "2026-10-02T06:00:00",
+    "created_at": "2026-09-30T22:00:00"
+  },
+  {
+    "id": "SHF-000004",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-01T06:00:00",
+    "shift_end": "2026-10-01T14:00:00",
+    "created_at": "2026-09-30T06:00:00"
+  },
+  {
+    "id": "SHF-000005",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-01T14:00:00",
+    "shift_end": "2026-10-01T22:00:00",
+    "created_at": "2026-09-30T14:00:00"
+  },
+  {
+    "id": "SHF-000006",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-01T22:00:00",
+    "shift_end": "2026-10-02T06:00:00",
+    "created_at": "2026-09-30T22:00:00"
+  },
+  {
+    "id": "SHF-000007",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-01T06:00:00",
+    "shift_end": "2026-10-01T14:00:00",
+    "created_at": "2026-09-30T06:00:00"
+  },
+  {
+    "id": "SHF-000008",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-01T14:00:00",
+    "shift_end": "2026-10-01T22:00:00",
+    "created_at": "2026-09-30T14:00:00"
+  },
+  {
+    "id": "SHF-000009",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-01T22:00:00",
+    "shift_end": "2026-10-02T06:00:00",
+    "created_at": "2026-09-30T22:00:00"
+  },
+  {
+    "id": "SHF-000010",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-01T06:00:00",
+    "shift_end": "2026-10-01T14:00:00",
+    "created_at": "2026-09-30T06:00:00"
+  },
+  {
+    "id": "SHF-000011",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-01T14:00:00",
+    "shift_end": "2026-10-01T22:00:00",
+    "created_at": "2026-09-30T14:00:00"
+  },
+  {
+    "id": "SHF-000012",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-01T22:00:00",
+    "shift_end": "2026-10-02T06:00:00",
+    "created_at": "2026-09-30T22:00:00"
+  },
+  {
+    "id": "SHF-000013",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-02T06:00:00",
+    "shift_end": "2026-10-02T14:00:00",
+    "created_at": "2026-10-01T06:00:00"
+  },
+  {
+    "id": "SHF-000014",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-02T14:00:00",
+    "shift_end": "2026-10-02T22:00:00",
+    "created_at": "2026-10-01T14:00:00"
+  },
+  {
+    "id": "SHF-000015",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-02T22:00:00",
+    "shift_end": "2026-10-03T06:00:00",
+    "created_at": "2026-10-01T22:00:00"
+  },
+  {
+    "id": "SHF-000016",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-02T06:00:00",
+    "shift_end": "2026-10-02T14:00:00",
+    "created_at": "2026-10-01T06:00:00"
+  },
+  {
+    "id": "SHF-000017",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-02T14:00:00",
+    "shift_end": "2026-10-02T22:00:00",
+    "created_at": "2026-10-01T14:00:00"
+  },
+  {
+    "id": "SHF-000018",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-02T22:00:00",
+    "shift_end": "2026-10-03T06:00:00",
+    "created_at": "2026-10-01T22:00:00"
+  },
+  {
+    "id": "SHF-000019",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-02T06:00:00",
+    "shift_end": "2026-10-02T14:00:00",
+    "created_at": "2026-10-01T06:00:00"
+  },
+  {
+    "id": "SHF-000020",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-02T14:00:00",
+    "shift_end": "2026-10-02T22:00:00",
+    "created_at": "2026-10-01T14:00:00"
+  },
+  {
+    "id": "SHF-000021",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-02T22:00:00",
+    "shift_end": "2026-10-03T06:00:00",
+    "created_at": "2026-10-01T22:00:00"
+  },
+  {
+    "id": "SHF-000022",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-02T06:00:00",
+    "shift_end": "2026-10-02T14:00:00",
+    "created_at": "2026-10-01T06:00:00"
+  },
+  {
+    "id": "SHF-000023",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-02T14:00:00",
+    "shift_end": "2026-10-02T22:00:00",
+    "created_at": "2026-10-01T14:00:00"
+  },
+  {
+    "id": "SHF-000024",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-02T22:00:00",
+    "shift_end": "2026-10-03T06:00:00",
+    "created_at": "2026-10-01T22:00:00"
+  },
+  {
+    "id": "SHF-000025",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-03T06:00:00",
+    "shift_end": "2026-10-03T14:00:00",
+    "created_at": "2026-10-02T06:00:00"
+  },
+  {
+    "id": "SHF-000026",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-03T14:00:00",
+    "shift_end": "2026-10-03T22:00:00",
+    "created_at": "2026-10-02T14:00:00"
+  },
+  {
+    "id": "SHF-000027",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-03T22:00:00",
+    "shift_end": "2026-10-04T06:00:00",
+    "created_at": "2026-10-02T22:00:00"
+  },
+  {
+    "id": "SHF-000028",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-03T06:00:00",
+    "shift_end": "2026-10-03T14:00:00",
+    "created_at": "2026-10-02T06:00:00"
+  },
+  {
+    "id": "SHF-000029",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-03T14:00:00",
+    "shift_end": "2026-10-03T22:00:00",
+    "created_at": "2026-10-02T14:00:00"
+  },
+  {
+    "id": "SHF-000030",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-03T22:00:00",
+    "shift_end": "2026-10-04T06:00:00",
+    "created_at": "2026-10-02T22:00:00"
+  },
+  {
+    "id": "SHF-000031",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-03T06:00:00",
+    "shift_end": "2026-10-03T14:00:00",
+    "created_at": "2026-10-02T06:00:00"
+  },
+  {
+    "id": "SHF-000032",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-03T14:00:00",
+    "shift_end": "2026-10-03T22:00:00",
+    "created_at": "2026-10-02T14:00:00"
+  },
+  {
+    "id": "SHF-000033",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-03T22:00:00",
+    "shift_end": "2026-10-04T06:00:00",
+    "created_at": "2026-10-02T22:00:00"
+  },
+  {
+    "id": "SHF-000034",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-03T06:00:00",
+    "shift_end": "2026-10-03T14:00:00",
+    "created_at": "2026-10-02T06:00:00"
+  },
+  {
+    "id": "SHF-000035",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-03T14:00:00",
+    "shift_end": "2026-10-03T22:00:00",
+    "created_at": "2026-10-02T14:00:00"
+  },
+  {
+    "id": "SHF-000036",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-03T22:00:00",
+    "shift_end": "2026-10-04T06:00:00",
+    "created_at": "2026-10-02T22:00:00"
+  },
+  {
+    "id": "SHF-000037",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-04T06:00:00",
+    "shift_end": "2026-10-04T14:00:00",
+    "created_at": "2026-10-03T06:00:00"
+  },
+  {
+    "id": "SHF-000038",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-04T14:00:00",
+    "shift_end": "2026-10-04T22:00:00",
+    "created_at": "2026-10-03T14:00:00"
+  },
+  {
+    "id": "SHF-000039",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-04T22:00:00",
+    "shift_end": "2026-10-05T06:00:00",
+    "created_at": "2026-10-03T22:00:00"
+  },
+  {
+    "id": "SHF-000040",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-04T06:00:00",
+    "shift_end": "2026-10-04T14:00:00",
+    "created_at": "2026-10-03T06:00:00"
+  },
+  {
+    "id": "SHF-000041",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-04T14:00:00",
+    "shift_end": "2026-10-04T22:00:00",
+    "created_at": "2026-10-03T14:00:00"
+  },
+  {
+    "id": "SHF-000042",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-04T22:00:00",
+    "shift_end": "2026-10-05T06:00:00",
+    "created_at": "2026-10-03T22:00:00"
+  },
+  {
+    "id": "SHF-000043",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-04T06:00:00",
+    "shift_end": "2026-10-04T14:00:00",
+    "created_at": "2026-10-03T06:00:00"
+  },
+  {
+    "id": "SHF-000044",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-04T14:00:00",
+    "shift_end": "2026-10-04T22:00:00",
+    "created_at": "2026-10-03T14:00:00"
+  },
+  {
+    "id": "SHF-000045",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-04T22:00:00",
+    "shift_end": "2026-10-05T06:00:00",
+    "created_at": "2026-10-03T22:00:00"
+  },
+  {
+    "id": "SHF-000046",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-04T06:00:00",
+    "shift_end": "2026-10-04T14:00:00",
+    "created_at": "2026-10-03T06:00:00"
+  },
+  {
+    "id": "SHF-000047",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-04T14:00:00",
+    "shift_end": "2026-10-04T22:00:00",
+    "created_at": "2026-10-03T14:00:00"
+  },
+  {
+    "id": "SHF-000048",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-04T22:00:00",
+    "shift_end": "2026-10-05T06:00:00",
+    "created_at": "2026-10-03T22:00:00"
+  },
+  {
+    "id": "SHF-000049",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-05T06:00:00",
+    "shift_end": "2026-10-05T14:00:00",
+    "created_at": "2026-10-04T06:00:00"
+  },
+  {
+    "id": "SHF-000050",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-05T14:00:00",
+    "shift_end": "2026-10-05T22:00:00",
+    "created_at": "2026-10-04T14:00:00"
+  },
+  {
+    "id": "SHF-000051",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-05T22:00:00",
+    "shift_end": "2026-10-06T06:00:00",
+    "created_at": "2026-10-04T22:00:00"
+  },
+  {
+    "id": "SHF-000052",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-05T06:00:00",
+    "shift_end": "2026-10-05T14:00:00",
+    "created_at": "2026-10-04T06:00:00"
+  },
+  {
+    "id": "SHF-000053",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-05T14:00:00",
+    "shift_end": "2026-10-05T22:00:00",
+    "created_at": "2026-10-04T14:00:00"
+  },
+  {
+    "id": "SHF-000054",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-05T22:00:00",
+    "shift_end": "2026-10-06T06:00:00",
+    "created_at": "2026-10-04T22:00:00"
+  },
+  {
+    "id": "SHF-000055",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-05T06:00:00",
+    "shift_end": "2026-10-05T14:00:00",
+    "created_at": "2026-10-04T06:00:00"
+  },
+  {
+    "id": "SHF-000056",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-05T14:00:00",
+    "shift_end": "2026-10-05T22:00:00",
+    "created_at": "2026-10-04T14:00:00"
+  },
+  {
+    "id": "SHF-000057",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-05T22:00:00",
+    "shift_end": "2026-10-06T06:00:00",
+    "created_at": "2026-10-04T22:00:00"
+  },
+  {
+    "id": "SHF-000058",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-05T06:00:00",
+    "shift_end": "2026-10-05T14:00:00",
+    "created_at": "2026-10-04T06:00:00"
+  },
+  {
+    "id": "SHF-000059",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-05T14:00:00",
+    "shift_end": "2026-10-05T22:00:00",
+    "created_at": "2026-10-04T14:00:00"
+  },
+  {
+    "id": "SHF-000060",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-05T22:00:00",
+    "shift_end": "2026-10-06T06:00:00",
+    "created_at": "2026-10-04T22:00:00"
+  },
+  {
+    "id": "SHF-000061",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-06T06:00:00",
+    "shift_end": "2026-10-06T14:00:00",
+    "created_at": "2026-10-05T06:00:00"
+  },
+  {
+    "id": "SHF-000062",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-06T14:00:00",
+    "shift_end": "2026-10-06T22:00:00",
+    "created_at": "2026-10-05T14:00:00"
+  },
+  {
+    "id": "SHF-000063",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-06T22:00:00",
+    "shift_end": "2026-10-07T06:00:00",
+    "created_at": "2026-10-05T22:00:00"
+  },
+  {
+    "id": "SHF-000064",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-06T06:00:00",
+    "shift_end": "2026-10-06T14:00:00",
+    "created_at": "2026-10-05T06:00:00"
+  },
+  {
+    "id": "SHF-000065",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-06T14:00:00",
+    "shift_end": "2026-10-06T22:00:00",
+    "created_at": "2026-10-05T14:00:00"
+  },
+  {
+    "id": "SHF-000066",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-06T22:00:00",
+    "shift_end": "2026-10-07T06:00:00",
+    "created_at": "2026-10-05T22:00:00"
+  },
+  {
+    "id": "SHF-000067",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-06T06:00:00",
+    "shift_end": "2026-10-06T14:00:00",
+    "created_at": "2026-10-05T06:00:00"
+  },
+  {
+    "id": "SHF-000068",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-06T14:00:00",
+    "shift_end": "2026-10-06T22:00:00",
+    "created_at": "2026-10-05T14:00:00"
+  },
+  {
+    "id": "SHF-000069",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-06T22:00:00",
+    "shift_end": "2026-10-07T06:00:00",
+    "created_at": "2026-10-05T22:00:00"
+  },
+  {
+    "id": "SHF-000070",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-06T06:00:00",
+    "shift_end": "2026-10-06T14:00:00",
+    "created_at": "2026-10-05T06:00:00"
+  },
+  {
+    "id": "SHF-000071",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-06T14:00:00",
+    "shift_end": "2026-10-06T22:00:00",
+    "created_at": "2026-10-05T14:00:00"
+  },
+  {
+    "id": "SHF-000072",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-06T22:00:00",
+    "shift_end": "2026-10-07T06:00:00",
+    "created_at": "2026-10-05T22:00:00"
+  },
+  {
+    "id": "SHF-000073",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-07T06:00:00",
+    "shift_end": "2026-10-07T14:00:00",
+    "created_at": "2026-10-06T06:00:00"
+  },
+  {
+    "id": "SHF-000074",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-07T14:00:00",
+    "shift_end": "2026-10-07T22:00:00",
+    "created_at": "2026-10-06T14:00:00"
+  },
+  {
+    "id": "SHF-000075",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-07T22:00:00",
+    "shift_end": "2026-10-08T06:00:00",
+    "created_at": "2026-10-06T22:00:00"
+  },
+  {
+    "id": "SHF-000076",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-07T06:00:00",
+    "shift_end": "2026-10-07T14:00:00",
+    "created_at": "2026-10-06T06:00:00"
+  },
+  {
+    "id": "SHF-000077",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-07T14:00:00",
+    "shift_end": "2026-10-07T22:00:00",
+    "created_at": "2026-10-06T14:00:00"
+  },
+  {
+    "id": "SHF-000078",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-07T22:00:00",
+    "shift_end": "2026-10-08T06:00:00",
+    "created_at": "2026-10-06T22:00:00"
+  },
+  {
+    "id": "SHF-000079",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-07T06:00:00",
+    "shift_end": "2026-10-07T14:00:00",
+    "created_at": "2026-10-06T06:00:00"
+  },
+  {
+    "id": "SHF-000080",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-07T14:00:00",
+    "shift_end": "2026-10-07T22:00:00",
+    "created_at": "2026-10-06T14:00:00"
+  },
+  {
+    "id": "SHF-000081",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-07T22:00:00",
+    "shift_end": "2026-10-08T06:00:00",
+    "created_at": "2026-10-06T22:00:00"
+  },
+  {
+    "id": "SHF-000082",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-07T06:00:00",
+    "shift_end": "2026-10-07T14:00:00",
+    "created_at": "2026-10-06T06:00:00"
+  },
+  {
+    "id": "SHF-000083",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-07T14:00:00",
+    "shift_end": "2026-10-07T22:00:00",
+    "created_at": "2026-10-06T14:00:00"
+  },
+  {
+    "id": "SHF-000084",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-07T22:00:00",
+    "shift_end": "2026-10-08T06:00:00",
+    "created_at": "2026-10-06T22:00:00"
+  },
+  {
+    "id": "SHF-000085",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-08T06:00:00",
+    "shift_end": "2026-10-08T14:00:00",
+    "created_at": "2026-10-07T06:00:00"
+  },
+  {
+    "id": "SHF-000086",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-08T14:00:00",
+    "shift_end": "2026-10-08T22:00:00",
+    "created_at": "2026-10-07T14:00:00"
+  },
+  {
+    "id": "SHF-000087",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-08T22:00:00",
+    "shift_end": "2026-10-09T06:00:00",
+    "created_at": "2026-10-07T22:00:00"
+  },
+  {
+    "id": "SHF-000088",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-08T06:00:00",
+    "shift_end": "2026-10-08T14:00:00",
+    "created_at": "2026-10-07T06:00:00"
+  },
+  {
+    "id": "SHF-000089",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-08T14:00:00",
+    "shift_end": "2026-10-08T22:00:00",
+    "created_at": "2026-10-07T14:00:00"
+  },
+  {
+    "id": "SHF-000090",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-08T22:00:00",
+    "shift_end": "2026-10-09T06:00:00",
+    "created_at": "2026-10-07T22:00:00"
+  },
+  {
+    "id": "SHF-000091",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-08T06:00:00",
+    "shift_end": "2026-10-08T14:00:00",
+    "created_at": "2026-10-07T06:00:00"
+  },
+  {
+    "id": "SHF-000092",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-08T14:00:00",
+    "shift_end": "2026-10-08T22:00:00",
+    "created_at": "2026-10-07T14:00:00"
+  },
+  {
+    "id": "SHF-000093",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-08T22:00:00",
+    "shift_end": "2026-10-09T06:00:00",
+    "created_at": "2026-10-07T22:00:00"
+  },
+  {
+    "id": "SHF-000094",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-08T06:00:00",
+    "shift_end": "2026-10-08T14:00:00",
+    "created_at": "2026-10-07T06:00:00"
+  },
+  {
+    "id": "SHF-000095",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-08T14:00:00",
+    "shift_end": "2026-10-08T22:00:00",
+    "created_at": "2026-10-07T14:00:00"
+  },
+  {
+    "id": "SHF-000096",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-08T22:00:00",
+    "shift_end": "2026-10-09T06:00:00",
+    "created_at": "2026-10-07T22:00:00"
+  },
+  {
+    "id": "SHF-000097",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-09T06:00:00",
+    "shift_end": "2026-10-09T14:00:00",
+    "created_at": "2026-10-08T06:00:00"
+  },
+  {
+    "id": "SHF-000098",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-09T14:00:00",
+    "shift_end": "2026-10-09T22:00:00",
+    "created_at": "2026-10-08T14:00:00"
+  },
+  {
+    "id": "SHF-000099",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-09T22:00:00",
+    "shift_end": "2026-10-10T06:00:00",
+    "created_at": "2026-10-08T22:00:00"
+  },
+  {
+    "id": "SHF-000100",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-09T06:00:00",
+    "shift_end": "2026-10-09T14:00:00",
+    "created_at": "2026-10-08T06:00:00"
+  },
+  {
+    "id": "SHF-000101",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-09T14:00:00",
+    "shift_end": "2026-10-09T22:00:00",
+    "created_at": "2026-10-08T14:00:00"
+  },
+  {
+    "id": "SHF-000102",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-09T22:00:00",
+    "shift_end": "2026-10-10T06:00:00",
+    "created_at": "2026-10-08T22:00:00"
+  },
+  {
+    "id": "SHF-000103",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-09T06:00:00",
+    "shift_end": "2026-10-09T14:00:00",
+    "created_at": "2026-10-08T06:00:00"
+  },
+  {
+    "id": "SHF-000104",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-09T14:00:00",
+    "shift_end": "2026-10-09T22:00:00",
+    "created_at": "2026-10-08T14:00:00"
+  },
+  {
+    "id": "SHF-000105",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-09T22:00:00",
+    "shift_end": "2026-10-10T06:00:00",
+    "created_at": "2026-10-08T22:00:00"
+  },
+  {
+    "id": "SHF-000106",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-09T06:00:00",
+    "shift_end": "2026-10-09T14:00:00",
+    "created_at": "2026-10-08T06:00:00"
+  },
+  {
+    "id": "SHF-000107",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-09T14:00:00",
+    "shift_end": "2026-10-09T22:00:00",
+    "created_at": "2026-10-08T14:00:00"
+  },
+  {
+    "id": "SHF-000108",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-09T22:00:00",
+    "shift_end": "2026-10-10T06:00:00",
+    "created_at": "2026-10-08T22:00:00"
+  },
+  {
+    "id": "SHF-000109",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-10T06:00:00",
+    "shift_end": "2026-10-10T14:00:00",
+    "created_at": "2026-10-09T06:00:00"
+  },
+  {
+    "id": "SHF-000110",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-10T14:00:00",
+    "shift_end": "2026-10-10T22:00:00",
+    "created_at": "2026-10-09T14:00:00"
+  },
+  {
+    "id": "SHF-000111",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-10T22:00:00",
+    "shift_end": "2026-10-11T06:00:00",
+    "created_at": "2026-10-09T22:00:00"
+  },
+  {
+    "id": "SHF-000112",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-10T06:00:00",
+    "shift_end": "2026-10-10T14:00:00",
+    "created_at": "2026-10-09T06:00:00"
+  },
+  {
+    "id": "SHF-000113",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-10T14:00:00",
+    "shift_end": "2026-10-10T22:00:00",
+    "created_at": "2026-10-09T14:00:00"
+  },
+  {
+    "id": "SHF-000114",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-10T22:00:00",
+    "shift_end": "2026-10-11T06:00:00",
+    "created_at": "2026-10-09T22:00:00"
+  },
+  {
+    "id": "SHF-000115",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-10T06:00:00",
+    "shift_end": "2026-10-10T14:00:00",
+    "created_at": "2026-10-09T06:00:00"
+  },
+  {
+    "id": "SHF-000116",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-10T14:00:00",
+    "shift_end": "2026-10-10T22:00:00",
+    "created_at": "2026-10-09T14:00:00"
+  },
+  {
+    "id": "SHF-000117",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-10T22:00:00",
+    "shift_end": "2026-10-11T06:00:00",
+    "created_at": "2026-10-09T22:00:00"
+  },
+  {
+    "id": "SHF-000118",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-10T06:00:00",
+    "shift_end": "2026-10-10T14:00:00",
+    "created_at": "2026-10-09T06:00:00"
+  },
+  {
+    "id": "SHF-000119",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-10T14:00:00",
+    "shift_end": "2026-10-10T22:00:00",
+    "created_at": "2026-10-09T14:00:00"
+  },
+  {
+    "id": "SHF-000120",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-10T22:00:00",
+    "shift_end": "2026-10-11T06:00:00",
+    "created_at": "2026-10-09T22:00:00"
+  },
+  {
+    "id": "SHF-000121",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-11T06:00:00",
+    "shift_end": "2026-10-11T14:00:00",
+    "created_at": "2026-10-10T06:00:00"
+  },
+  {
+    "id": "SHF-000122",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-11T14:00:00",
+    "shift_end": "2026-10-11T22:00:00",
+    "created_at": "2026-10-10T14:00:00"
+  },
+  {
+    "id": "SHF-000123",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-11T22:00:00",
+    "shift_end": "2026-10-12T06:00:00",
+    "created_at": "2026-10-10T22:00:00"
+  },
+  {
+    "id": "SHF-000124",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-11T06:00:00",
+    "shift_end": "2026-10-11T14:00:00",
+    "created_at": "2026-10-10T06:00:00"
+  },
+  {
+    "id": "SHF-000125",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-11T14:00:00",
+    "shift_end": "2026-10-11T22:00:00",
+    "created_at": "2026-10-10T14:00:00"
+  },
+  {
+    "id": "SHF-000126",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-11T22:00:00",
+    "shift_end": "2026-10-12T06:00:00",
+    "created_at": "2026-10-10T22:00:00"
+  },
+  {
+    "id": "SHF-000127",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-11T06:00:00",
+    "shift_end": "2026-10-11T14:00:00",
+    "created_at": "2026-10-10T06:00:00"
+  },
+  {
+    "id": "SHF-000128",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-11T14:00:00",
+    "shift_end": "2026-10-11T22:00:00",
+    "created_at": "2026-10-10T14:00:00"
+  },
+  {
+    "id": "SHF-000129",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-11T22:00:00",
+    "shift_end": "2026-10-12T06:00:00",
+    "created_at": "2026-10-10T22:00:00"
+  },
+  {
+    "id": "SHF-000130",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-11T06:00:00",
+    "shift_end": "2026-10-11T14:00:00",
+    "created_at": "2026-10-10T06:00:00"
+  },
+  {
+    "id": "SHF-000131",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-11T14:00:00",
+    "shift_end": "2026-10-11T22:00:00",
+    "created_at": "2026-10-10T14:00:00"
+  },
+  {
+    "id": "SHF-000132",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-11T22:00:00",
+    "shift_end": "2026-10-12T06:00:00",
+    "created_at": "2026-10-10T22:00:00"
+  },
+  {
+    "id": "SHF-000133",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-12T06:00:00",
+    "shift_end": "2026-10-12T14:00:00",
+    "created_at": "2026-10-11T06:00:00"
+  },
+  {
+    "id": "SHF-000134",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-12T14:00:00",
+    "shift_end": "2026-10-12T22:00:00",
+    "created_at": "2026-10-11T14:00:00"
+  },
+  {
+    "id": "SHF-000135",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-12T22:00:00",
+    "shift_end": "2026-10-13T06:00:00",
+    "created_at": "2026-10-11T22:00:00"
+  },
+  {
+    "id": "SHF-000136",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-12T06:00:00",
+    "shift_end": "2026-10-12T14:00:00",
+    "created_at": "2026-10-11T06:00:00"
+  },
+  {
+    "id": "SHF-000137",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-12T14:00:00",
+    "shift_end": "2026-10-12T22:00:00",
+    "created_at": "2026-10-11T14:00:00"
+  },
+  {
+    "id": "SHF-000138",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-12T22:00:00",
+    "shift_end": "2026-10-13T06:00:00",
+    "created_at": "2026-10-11T22:00:00"
+  },
+  {
+    "id": "SHF-000139",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-12T06:00:00",
+    "shift_end": "2026-10-12T14:00:00",
+    "created_at": "2026-10-11T06:00:00"
+  },
+  {
+    "id": "SHF-000140",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-12T14:00:00",
+    "shift_end": "2026-10-12T22:00:00",
+    "created_at": "2026-10-11T14:00:00"
+  },
+  {
+    "id": "SHF-000141",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-12T22:00:00",
+    "shift_end": "2026-10-13T06:00:00",
+    "created_at": "2026-10-11T22:00:00"
+  },
+  {
+    "id": "SHF-000142",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-12T06:00:00",
+    "shift_end": "2026-10-12T14:00:00",
+    "created_at": "2026-10-11T06:00:00"
+  },
+  {
+    "id": "SHF-000143",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-12T14:00:00",
+    "shift_end": "2026-10-12T22:00:00",
+    "created_at": "2026-10-11T14:00:00"
+  },
+  {
+    "id": "SHF-000144",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-12T22:00:00",
+    "shift_end": "2026-10-13T06:00:00",
+    "created_at": "2026-10-11T22:00:00"
+  },
+  {
+    "id": "SHF-000145",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-13T06:00:00",
+    "shift_end": "2026-10-13T14:00:00",
+    "created_at": "2026-10-12T06:00:00"
+  },
+  {
+    "id": "SHF-000146",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-13T14:00:00",
+    "shift_end": "2026-10-13T22:00:00",
+    "created_at": "2026-10-12T14:00:00"
+  },
+  {
+    "id": "SHF-000147",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-13T22:00:00",
+    "shift_end": "2026-10-14T06:00:00",
+    "created_at": "2026-10-12T22:00:00"
+  },
+  {
+    "id": "SHF-000148",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-13T06:00:00",
+    "shift_end": "2026-10-13T14:00:00",
+    "created_at": "2026-10-12T06:00:00"
+  },
+  {
+    "id": "SHF-000149",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-13T14:00:00",
+    "shift_end": "2026-10-13T22:00:00",
+    "created_at": "2026-10-12T14:00:00"
+  },
+  {
+    "id": "SHF-000150",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-13T22:00:00",
+    "shift_end": "2026-10-14T06:00:00",
+    "created_at": "2026-10-12T22:00:00"
+  },
+  {
+    "id": "SHF-000151",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-13T06:00:00",
+    "shift_end": "2026-10-13T14:00:00",
+    "created_at": "2026-10-12T06:00:00"
+  },
+  {
+    "id": "SHF-000152",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-13T14:00:00",
+    "shift_end": "2026-10-13T22:00:00",
+    "created_at": "2026-10-12T14:00:00"
+  },
+  {
+    "id": "SHF-000153",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-13T22:00:00",
+    "shift_end": "2026-10-14T06:00:00",
+    "created_at": "2026-10-12T22:00:00"
+  },
+  {
+    "id": "SHF-000154",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-13T06:00:00",
+    "shift_end": "2026-10-13T14:00:00",
+    "created_at": "2026-10-12T06:00:00"
+  },
+  {
+    "id": "SHF-000155",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-13T14:00:00",
+    "shift_end": "2026-10-13T22:00:00",
+    "created_at": "2026-10-12T14:00:00"
+  },
+  {
+    "id": "SHF-000156",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-13T22:00:00",
+    "shift_end": "2026-10-14T06:00:00",
+    "created_at": "2026-10-12T22:00:00"
+  },
+  {
+    "id": "SHF-000157",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-14T06:00:00",
+    "shift_end": "2026-10-14T14:00:00",
+    "created_at": "2026-10-13T06:00:00"
+  },
+  {
+    "id": "SHF-000158",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-14T14:00:00",
+    "shift_end": "2026-10-14T22:00:00",
+    "created_at": "2026-10-13T14:00:00"
+  },
+  {
+    "id": "SHF-000159",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-14T22:00:00",
+    "shift_end": "2026-10-15T06:00:00",
+    "created_at": "2026-10-13T22:00:00"
+  },
+  {
+    "id": "SHF-000160",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-14T06:00:00",
+    "shift_end": "2026-10-14T14:00:00",
+    "created_at": "2026-10-13T06:00:00"
+  },
+  {
+    "id": "SHF-000161",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-14T14:00:00",
+    "shift_end": "2026-10-14T22:00:00",
+    "created_at": "2026-10-13T14:00:00"
+  },
+  {
+    "id": "SHF-000162",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-14T22:00:00",
+    "shift_end": "2026-10-15T06:00:00",
+    "created_at": "2026-10-13T22:00:00"
+  },
+  {
+    "id": "SHF-000163",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-14T06:00:00",
+    "shift_end": "2026-10-14T14:00:00",
+    "created_at": "2026-10-13T06:00:00"
+  },
+  {
+    "id": "SHF-000164",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-14T14:00:00",
+    "shift_end": "2026-10-14T22:00:00",
+    "created_at": "2026-10-13T14:00:00"
+  },
+  {
+    "id": "SHF-000165",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-14T22:00:00",
+    "shift_end": "2026-10-15T06:00:00",
+    "created_at": "2026-10-13T22:00:00"
+  },
+  {
+    "id": "SHF-000166",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-14T06:00:00",
+    "shift_end": "2026-10-14T14:00:00",
+    "created_at": "2026-10-13T06:00:00"
+  },
+  {
+    "id": "SHF-000167",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-14T14:00:00",
+    "shift_end": "2026-10-14T22:00:00",
+    "created_at": "2026-10-13T14:00:00"
+  },
+  {
+    "id": "SHF-000168",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-14T22:00:00",
+    "shift_end": "2026-10-15T06:00:00",
+    "created_at": "2026-10-13T22:00:00"
+  },
+  {
+    "id": "SHF-000169",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-15T06:00:00",
+    "shift_end": "2026-10-15T14:00:00",
+    "created_at": "2026-10-14T06:00:00"
+  },
+  {
+    "id": "SHF-000170",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-15T14:00:00",
+    "shift_end": "2026-10-15T22:00:00",
+    "created_at": "2026-10-14T14:00:00"
+  },
+  {
+    "id": "SHF-000171",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-15T22:00:00",
+    "shift_end": "2026-10-16T06:00:00",
+    "created_at": "2026-10-14T22:00:00"
+  },
+  {
+    "id": "SHF-000172",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-15T06:00:00",
+    "shift_end": "2026-10-15T14:00:00",
+    "created_at": "2026-10-14T06:00:00"
+  },
+  {
+    "id": "SHF-000173",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-15T14:00:00",
+    "shift_end": "2026-10-15T22:00:00",
+    "created_at": "2026-10-14T14:00:00"
+  },
+  {
+    "id": "SHF-000174",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-15T22:00:00",
+    "shift_end": "2026-10-16T06:00:00",
+    "created_at": "2026-10-14T22:00:00"
+  },
+  {
+    "id": "SHF-000175",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-15T06:00:00",
+    "shift_end": "2026-10-15T14:00:00",
+    "created_at": "2026-10-14T06:00:00"
+  },
+  {
+    "id": "SHF-000176",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-15T14:00:00",
+    "shift_end": "2026-10-15T22:00:00",
+    "created_at": "2026-10-14T14:00:00"
+  },
+  {
+    "id": "SHF-000177",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-15T22:00:00",
+    "shift_end": "2026-10-16T06:00:00",
+    "created_at": "2026-10-14T22:00:00"
+  },
+  {
+    "id": "SHF-000178",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-15T06:00:00",
+    "shift_end": "2026-10-15T14:00:00",
+    "created_at": "2026-10-14T06:00:00"
+  },
+  {
+    "id": "SHF-000179",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-15T14:00:00",
+    "shift_end": "2026-10-15T22:00:00",
+    "created_at": "2026-10-14T14:00:00"
+  },
+  {
+    "id": "SHF-000180",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-15T22:00:00",
+    "shift_end": "2026-10-16T06:00:00",
+    "created_at": "2026-10-14T22:00:00"
+  },
+  {
+    "id": "SHF-000181",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-16T06:00:00",
+    "shift_end": "2026-10-16T14:00:00",
+    "created_at": "2026-10-15T06:00:00"
+  },
+  {
+    "id": "SHF-000182",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-16T14:00:00",
+    "shift_end": "2026-10-16T22:00:00",
+    "created_at": "2026-10-15T14:00:00"
+  },
+  {
+    "id": "SHF-000183",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-16T22:00:00",
+    "shift_end": "2026-10-17T06:00:00",
+    "created_at": "2026-10-15T22:00:00"
+  },
+  {
+    "id": "SHF-000184",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-16T06:00:00",
+    "shift_end": "2026-10-16T14:00:00",
+    "created_at": "2026-10-15T06:00:00"
+  },
+  {
+    "id": "SHF-000185",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-16T14:00:00",
+    "shift_end": "2026-10-16T22:00:00",
+    "created_at": "2026-10-15T14:00:00"
+  },
+  {
+    "id": "SHF-000186",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-16T22:00:00",
+    "shift_end": "2026-10-17T06:00:00",
+    "created_at": "2026-10-15T22:00:00"
+  },
+  {
+    "id": "SHF-000187",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-16T06:00:00",
+    "shift_end": "2026-10-16T14:00:00",
+    "created_at": "2026-10-15T06:00:00"
+  },
+  {
+    "id": "SHF-000188",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-16T14:00:00",
+    "shift_end": "2026-10-16T22:00:00",
+    "created_at": "2026-10-15T14:00:00"
+  },
+  {
+    "id": "SHF-000189",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-16T22:00:00",
+    "shift_end": "2026-10-17T06:00:00",
+    "created_at": "2026-10-15T22:00:00"
+  },
+  {
+    "id": "SHF-000190",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-16T06:00:00",
+    "shift_end": "2026-10-16T14:00:00",
+    "created_at": "2026-10-15T06:00:00"
+  },
+  {
+    "id": "SHF-000191",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-16T14:00:00",
+    "shift_end": "2026-10-16T22:00:00",
+    "created_at": "2026-10-15T14:00:00"
+  },
+  {
+    "id": "SHF-000192",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-16T22:00:00",
+    "shift_end": "2026-10-17T06:00:00",
+    "created_at": "2026-10-15T22:00:00"
+  },
+  {
+    "id": "SHF-000193",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-17T06:00:00",
+    "shift_end": "2026-10-17T14:00:00",
+    "created_at": "2026-10-16T06:00:00"
+  },
+  {
+    "id": "SHF-000194",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-17T14:00:00",
+    "shift_end": "2026-10-17T22:00:00",
+    "created_at": "2026-10-16T14:00:00"
+  },
+  {
+    "id": "SHF-000195",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-17T22:00:00",
+    "shift_end": "2026-10-18T06:00:00",
+    "created_at": "2026-10-16T22:00:00"
+  },
+  {
+    "id": "SHF-000196",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-17T06:00:00",
+    "shift_end": "2026-10-17T14:00:00",
+    "created_at": "2026-10-16T06:00:00"
+  },
+  {
+    "id": "SHF-000197",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-17T14:00:00",
+    "shift_end": "2026-10-17T22:00:00",
+    "created_at": "2026-10-16T14:00:00"
+  },
+  {
+    "id": "SHF-000198",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-17T22:00:00",
+    "shift_end": "2026-10-18T06:00:00",
+    "created_at": "2026-10-16T22:00:00"
+  },
+  {
+    "id": "SHF-000199",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-17T06:00:00",
+    "shift_end": "2026-10-17T14:00:00",
+    "created_at": "2026-10-16T06:00:00"
+  },
+  {
+    "id": "SHF-000200",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-17T14:00:00",
+    "shift_end": "2026-10-17T22:00:00",
+    "created_at": "2026-10-16T14:00:00"
+  },
+  {
+    "id": "SHF-000201",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-17T22:00:00",
+    "shift_end": "2026-10-18T06:00:00",
+    "created_at": "2026-10-16T22:00:00"
+  },
+  {
+    "id": "SHF-000202",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-17T06:00:00",
+    "shift_end": "2026-10-17T14:00:00",
+    "created_at": "2026-10-16T06:00:00"
+  },
+  {
+    "id": "SHF-000203",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-17T14:00:00",
+    "shift_end": "2026-10-17T22:00:00",
+    "created_at": "2026-10-16T14:00:00"
+  },
+  {
+    "id": "SHF-000204",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-17T22:00:00",
+    "shift_end": "2026-10-18T06:00:00",
+    "created_at": "2026-10-16T22:00:00"
+  },
+  {
+    "id": "SHF-000205",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-18T06:00:00",
+    "shift_end": "2026-10-18T14:00:00",
+    "created_at": "2026-10-17T06:00:00"
+  },
+  {
+    "id": "SHF-000206",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-18T14:00:00",
+    "shift_end": "2026-10-18T22:00:00",
+    "created_at": "2026-10-17T14:00:00"
+  },
+  {
+    "id": "SHF-000207",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-18T22:00:00",
+    "shift_end": "2026-10-19T06:00:00",
+    "created_at": "2026-10-17T22:00:00"
+  },
+  {
+    "id": "SHF-000208",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-18T06:00:00",
+    "shift_end": "2026-10-18T14:00:00",
+    "created_at": "2026-10-17T06:00:00"
+  },
+  {
+    "id": "SHF-000209",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-18T14:00:00",
+    "shift_end": "2026-10-18T22:00:00",
+    "created_at": "2026-10-17T14:00:00"
+  },
+  {
+    "id": "SHF-000210",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-18T22:00:00",
+    "shift_end": "2026-10-19T06:00:00",
+    "created_at": "2026-10-17T22:00:00"
+  },
+  {
+    "id": "SHF-000211",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-18T06:00:00",
+    "shift_end": "2026-10-18T14:00:00",
+    "created_at": "2026-10-17T06:00:00"
+  },
+  {
+    "id": "SHF-000212",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-18T14:00:00",
+    "shift_end": "2026-10-18T22:00:00",
+    "created_at": "2026-10-17T14:00:00"
+  },
+  {
+    "id": "SHF-000213",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-18T22:00:00",
+    "shift_end": "2026-10-19T06:00:00",
+    "created_at": "2026-10-17T22:00:00"
+  },
+  {
+    "id": "SHF-000214",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-18T06:00:00",
+    "shift_end": "2026-10-18T14:00:00",
+    "created_at": "2026-10-17T06:00:00"
+  },
+  {
+    "id": "SHF-000215",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-18T14:00:00",
+    "shift_end": "2026-10-18T22:00:00",
+    "created_at": "2026-10-17T14:00:00"
+  },
+  {
+    "id": "SHF-000216",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-18T22:00:00",
+    "shift_end": "2026-10-19T06:00:00",
+    "created_at": "2026-10-17T22:00:00"
+  },
+  {
+    "id": "SHF-000217",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-19T06:00:00",
+    "shift_end": "2026-10-19T14:00:00",
+    "created_at": "2026-10-18T06:00:00"
+  },
+  {
+    "id": "SHF-000218",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-19T14:00:00",
+    "shift_end": "2026-10-19T22:00:00",
+    "created_at": "2026-10-18T14:00:00"
+  },
+  {
+    "id": "SHF-000219",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-19T22:00:00",
+    "shift_end": "2026-10-20T06:00:00",
+    "created_at": "2026-10-18T22:00:00"
+  },
+  {
+    "id": "SHF-000220",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-19T06:00:00",
+    "shift_end": "2026-10-19T14:00:00",
+    "created_at": "2026-10-18T06:00:00"
+  },
+  {
+    "id": "SHF-000221",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-19T14:00:00",
+    "shift_end": "2026-10-19T22:00:00",
+    "created_at": "2026-10-18T14:00:00"
+  },
+  {
+    "id": "SHF-000222",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-19T22:00:00",
+    "shift_end": "2026-10-20T06:00:00",
+    "created_at": "2026-10-18T22:00:00"
+  },
+  {
+    "id": "SHF-000223",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-19T06:00:00",
+    "shift_end": "2026-10-19T14:00:00",
+    "created_at": "2026-10-18T06:00:00"
+  },
+  {
+    "id": "SHF-000224",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-19T14:00:00",
+    "shift_end": "2026-10-19T22:00:00",
+    "created_at": "2026-10-18T14:00:00"
+  },
+  {
+    "id": "SHF-000225",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-19T22:00:00",
+    "shift_end": "2026-10-20T06:00:00",
+    "created_at": "2026-10-18T22:00:00"
+  },
+  {
+    "id": "SHF-000226",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-19T06:00:00",
+    "shift_end": "2026-10-19T14:00:00",
+    "created_at": "2026-10-18T06:00:00"
+  },
+  {
+    "id": "SHF-000227",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-19T14:00:00",
+    "shift_end": "2026-10-19T22:00:00",
+    "created_at": "2026-10-18T14:00:00"
+  },
+  {
+    "id": "SHF-000228",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-19T22:00:00",
+    "shift_end": "2026-10-20T06:00:00",
+    "created_at": "2026-10-18T22:00:00"
+  },
+  {
+    "id": "SHF-000229",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-20T06:00:00",
+    "shift_end": "2026-10-20T14:00:00",
+    "created_at": "2026-10-19T06:00:00"
+  },
+  {
+    "id": "SHF-000230",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-20T14:00:00",
+    "shift_end": "2026-10-20T22:00:00",
+    "created_at": "2026-10-19T14:00:00"
+  },
+  {
+    "id": "SHF-000231",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-20T22:00:00",
+    "shift_end": "2026-10-21T06:00:00",
+    "created_at": "2026-10-19T22:00:00"
+  },
+  {
+    "id": "SHF-000232",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-20T06:00:00",
+    "shift_end": "2026-10-20T14:00:00",
+    "created_at": "2026-10-19T06:00:00"
+  },
+  {
+    "id": "SHF-000233",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-20T14:00:00",
+    "shift_end": "2026-10-20T22:00:00",
+    "created_at": "2026-10-19T14:00:00"
+  },
+  {
+    "id": "SHF-000234",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-20T22:00:00",
+    "shift_end": "2026-10-21T06:00:00",
+    "created_at": "2026-10-19T22:00:00"
+  },
+  {
+    "id": "SHF-000235",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-20T06:00:00",
+    "shift_end": "2026-10-20T14:00:00",
+    "created_at": "2026-10-19T06:00:00"
+  },
+  {
+    "id": "SHF-000236",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-20T14:00:00",
+    "shift_end": "2026-10-20T22:00:00",
+    "created_at": "2026-10-19T14:00:00"
+  },
+  {
+    "id": "SHF-000237",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-20T22:00:00",
+    "shift_end": "2026-10-21T06:00:00",
+    "created_at": "2026-10-19T22:00:00"
+  },
+  {
+    "id": "SHF-000238",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-20T06:00:00",
+    "shift_end": "2026-10-20T14:00:00",
+    "created_at": "2026-10-19T06:00:00"
+  },
+  {
+    "id": "SHF-000239",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-20T14:00:00",
+    "shift_end": "2026-10-20T22:00:00",
+    "created_at": "2026-10-19T14:00:00"
+  },
+  {
+    "id": "SHF-000240",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-20T22:00:00",
+    "shift_end": "2026-10-21T06:00:00",
+    "created_at": "2026-10-19T22:00:00"
+  },
+  {
+    "id": "SHF-000241",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-21T06:00:00",
+    "shift_end": "2026-10-21T14:00:00",
+    "created_at": "2026-10-20T06:00:00"
+  },
+  {
+    "id": "SHF-000242",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-21T14:00:00",
+    "shift_end": "2026-10-21T22:00:00",
+    "created_at": "2026-10-20T14:00:00"
+  },
+  {
+    "id": "SHF-000243",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-21T22:00:00",
+    "shift_end": "2026-10-22T06:00:00",
+    "created_at": "2026-10-20T22:00:00"
+  },
+  {
+    "id": "SHF-000244",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-21T06:00:00",
+    "shift_end": "2026-10-21T14:00:00",
+    "created_at": "2026-10-20T06:00:00"
+  },
+  {
+    "id": "SHF-000245",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-21T14:00:00",
+    "shift_end": "2026-10-21T22:00:00",
+    "created_at": "2026-10-20T14:00:00"
+  },
+  {
+    "id": "SHF-000246",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-21T22:00:00",
+    "shift_end": "2026-10-22T06:00:00",
+    "created_at": "2026-10-20T22:00:00"
+  },
+  {
+    "id": "SHF-000247",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-21T06:00:00",
+    "shift_end": "2026-10-21T14:00:00",
+    "created_at": "2026-10-20T06:00:00"
+  },
+  {
+    "id": "SHF-000248",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-21T14:00:00",
+    "shift_end": "2026-10-21T22:00:00",
+    "created_at": "2026-10-20T14:00:00"
+  },
+  {
+    "id": "SHF-000249",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-21T22:00:00",
+    "shift_end": "2026-10-22T06:00:00",
+    "created_at": "2026-10-20T22:00:00"
+  },
+  {
+    "id": "SHF-000250",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-21T06:00:00",
+    "shift_end": "2026-10-21T14:00:00",
+    "created_at": "2026-10-20T06:00:00"
+  },
+  {
+    "id": "SHF-000251",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-21T14:00:00",
+    "shift_end": "2026-10-21T22:00:00",
+    "created_at": "2026-10-20T14:00:00"
+  },
+  {
+    "id": "SHF-000252",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-21T22:00:00",
+    "shift_end": "2026-10-22T06:00:00",
+    "created_at": "2026-10-20T22:00:00"
+  },
+  {
+    "id": "SHF-000253",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-22T06:00:00",
+    "shift_end": "2026-10-22T14:00:00",
+    "created_at": "2026-10-21T06:00:00"
+  },
+  {
+    "id": "SHF-000254",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-22T14:00:00",
+    "shift_end": "2026-10-22T22:00:00",
+    "created_at": "2026-10-21T14:00:00"
+  },
+  {
+    "id": "SHF-000255",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-22T22:00:00",
+    "shift_end": "2026-10-23T06:00:00",
+    "created_at": "2026-10-21T22:00:00"
+  },
+  {
+    "id": "SHF-000256",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-22T06:00:00",
+    "shift_end": "2026-10-22T14:00:00",
+    "created_at": "2026-10-21T06:00:00"
+  },
+  {
+    "id": "SHF-000257",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-22T14:00:00",
+    "shift_end": "2026-10-22T22:00:00",
+    "created_at": "2026-10-21T14:00:00"
+  },
+  {
+    "id": "SHF-000258",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-22T22:00:00",
+    "shift_end": "2026-10-23T06:00:00",
+    "created_at": "2026-10-21T22:00:00"
+  },
+  {
+    "id": "SHF-000259",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-22T06:00:00",
+    "shift_end": "2026-10-22T14:00:00",
+    "created_at": "2026-10-21T06:00:00"
+  },
+  {
+    "id": "SHF-000260",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-22T14:00:00",
+    "shift_end": "2026-10-22T22:00:00",
+    "created_at": "2026-10-21T14:00:00"
+  },
+  {
+    "id": "SHF-000261",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-22T22:00:00",
+    "shift_end": "2026-10-23T06:00:00",
+    "created_at": "2026-10-21T22:00:00"
+  },
+  {
+    "id": "SHF-000262",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-22T06:00:00",
+    "shift_end": "2026-10-22T14:00:00",
+    "created_at": "2026-10-21T06:00:00"
+  },
+  {
+    "id": "SHF-000263",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-22T14:00:00",
+    "shift_end": "2026-10-22T22:00:00",
+    "created_at": "2026-10-21T14:00:00"
+  },
+  {
+    "id": "SHF-000264",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-22T22:00:00",
+    "shift_end": "2026-10-23T06:00:00",
+    "created_at": "2026-10-21T22:00:00"
+  },
+  {
+    "id": "SHF-000265",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-23T06:00:00",
+    "shift_end": "2026-10-23T14:00:00",
+    "created_at": "2026-10-22T06:00:00"
+  },
+  {
+    "id": "SHF-000266",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-23T14:00:00",
+    "shift_end": "2026-10-23T22:00:00",
+    "created_at": "2026-10-22T14:00:00"
+  },
+  {
+    "id": "SHF-000267",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-23T22:00:00",
+    "shift_end": "2026-10-24T06:00:00",
+    "created_at": "2026-10-22T22:00:00"
+  },
+  {
+    "id": "SHF-000268",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-23T06:00:00",
+    "shift_end": "2026-10-23T14:00:00",
+    "created_at": "2026-10-22T06:00:00"
+  },
+  {
+    "id": "SHF-000269",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-23T14:00:00",
+    "shift_end": "2026-10-23T22:00:00",
+    "created_at": "2026-10-22T14:00:00"
+  },
+  {
+    "id": "SHF-000270",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-23T22:00:00",
+    "shift_end": "2026-10-24T06:00:00",
+    "created_at": "2026-10-22T22:00:00"
+  },
+  {
+    "id": "SHF-000271",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-23T06:00:00",
+    "shift_end": "2026-10-23T14:00:00",
+    "created_at": "2026-10-22T06:00:00"
+  },
+  {
+    "id": "SHF-000272",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-23T14:00:00",
+    "shift_end": "2026-10-23T22:00:00",
+    "created_at": "2026-10-22T14:00:00"
+  },
+  {
+    "id": "SHF-000273",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-23T22:00:00",
+    "shift_end": "2026-10-24T06:00:00",
+    "created_at": "2026-10-22T22:00:00"
+  },
+  {
+    "id": "SHF-000274",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-23T06:00:00",
+    "shift_end": "2026-10-23T14:00:00",
+    "created_at": "2026-10-22T06:00:00"
+  },
+  {
+    "id": "SHF-000275",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-23T14:00:00",
+    "shift_end": "2026-10-23T22:00:00",
+    "created_at": "2026-10-22T14:00:00"
+  },
+  {
+    "id": "SHF-000276",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-23T22:00:00",
+    "shift_end": "2026-10-24T06:00:00",
+    "created_at": "2026-10-22T22:00:00"
+  },
+  {
+    "id": "SHF-000277",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-24T06:00:00",
+    "shift_end": "2026-10-24T14:00:00",
+    "created_at": "2026-10-23T06:00:00"
+  },
+  {
+    "id": "SHF-000278",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-24T14:00:00",
+    "shift_end": "2026-10-24T22:00:00",
+    "created_at": "2026-10-23T14:00:00"
+  },
+  {
+    "id": "SHF-000279",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-24T22:00:00",
+    "shift_end": "2026-10-25T06:00:00",
+    "created_at": "2026-10-23T22:00:00"
+  },
+  {
+    "id": "SHF-000280",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-24T06:00:00",
+    "shift_end": "2026-10-24T14:00:00",
+    "created_at": "2026-10-23T06:00:00"
+  },
+  {
+    "id": "SHF-000281",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-24T14:00:00",
+    "shift_end": "2026-10-24T22:00:00",
+    "created_at": "2026-10-23T14:00:00"
+  },
+  {
+    "id": "SHF-000282",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-24T22:00:00",
+    "shift_end": "2026-10-25T06:00:00",
+    "created_at": "2026-10-23T22:00:00"
+  },
+  {
+    "id": "SHF-000283",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-24T06:00:00",
+    "shift_end": "2026-10-24T14:00:00",
+    "created_at": "2026-10-23T06:00:00"
+  },
+  {
+    "id": "SHF-000284",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-24T14:00:00",
+    "shift_end": "2026-10-24T22:00:00",
+    "created_at": "2026-10-23T14:00:00"
+  },
+  {
+    "id": "SHF-000285",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-24T22:00:00",
+    "shift_end": "2026-10-25T06:00:00",
+    "created_at": "2026-10-23T22:00:00"
+  },
+  {
+    "id": "SHF-000286",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-24T06:00:00",
+    "shift_end": "2026-10-24T14:00:00",
+    "created_at": "2026-10-23T06:00:00"
+  },
+  {
+    "id": "SHF-000287",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-24T14:00:00",
+    "shift_end": "2026-10-24T22:00:00",
+    "created_at": "2026-10-23T14:00:00"
+  },
+  {
+    "id": "SHF-000288",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-24T22:00:00",
+    "shift_end": "2026-10-25T06:00:00",
+    "created_at": "2026-10-23T22:00:00"
+  },
+  {
+    "id": "SHF-000289",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-25T06:00:00",
+    "shift_end": "2026-10-25T14:00:00",
+    "created_at": "2026-10-24T06:00:00"
+  },
+  {
+    "id": "SHF-000290",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-25T14:00:00",
+    "shift_end": "2026-10-25T22:00:00",
+    "created_at": "2026-10-24T14:00:00"
+  },
+  {
+    "id": "SHF-000291",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-25T22:00:00",
+    "shift_end": "2026-10-26T06:00:00",
+    "created_at": "2026-10-24T22:00:00"
+  },
+  {
+    "id": "SHF-000292",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-25T06:00:00",
+    "shift_end": "2026-10-25T14:00:00",
+    "created_at": "2026-10-24T06:00:00"
+  },
+  {
+    "id": "SHF-000293",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-25T14:00:00",
+    "shift_end": "2026-10-25T22:00:00",
+    "created_at": "2026-10-24T14:00:00"
+  },
+  {
+    "id": "SHF-000294",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-25T22:00:00",
+    "shift_end": "2026-10-26T06:00:00",
+    "created_at": "2026-10-24T22:00:00"
+  },
+  {
+    "id": "SHF-000295",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-25T06:00:00",
+    "shift_end": "2026-10-25T14:00:00",
+    "created_at": "2026-10-24T06:00:00"
+  },
+  {
+    "id": "SHF-000296",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-25T14:00:00",
+    "shift_end": "2026-10-25T22:00:00",
+    "created_at": "2026-10-24T14:00:00"
+  },
+  {
+    "id": "SHF-000297",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-25T22:00:00",
+    "shift_end": "2026-10-26T06:00:00",
+    "created_at": "2026-10-24T22:00:00"
+  },
+  {
+    "id": "SHF-000298",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-25T06:00:00",
+    "shift_end": "2026-10-25T14:00:00",
+    "created_at": "2026-10-24T06:00:00"
+  },
+  {
+    "id": "SHF-000299",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-25T14:00:00",
+    "shift_end": "2026-10-25T22:00:00",
+    "created_at": "2026-10-24T14:00:00"
+  },
+  {
+    "id": "SHF-000300",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-25T22:00:00",
+    "shift_end": "2026-10-26T06:00:00",
+    "created_at": "2026-10-24T22:00:00"
+  },
+  {
+    "id": "SHF-000301",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-26T06:00:00",
+    "shift_end": "2026-10-26T14:00:00",
+    "created_at": "2026-10-25T06:00:00"
+  },
+  {
+    "id": "SHF-000302",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-26T14:00:00",
+    "shift_end": "2026-10-26T22:00:00",
+    "created_at": "2026-10-25T14:00:00"
+  },
+  {
+    "id": "SHF-000303",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-26T22:00:00",
+    "shift_end": "2026-10-27T06:00:00",
+    "created_at": "2026-10-25T22:00:00"
+  },
+  {
+    "id": "SHF-000304",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-26T06:00:00",
+    "shift_end": "2026-10-26T14:00:00",
+    "created_at": "2026-10-25T06:00:00"
+  },
+  {
+    "id": "SHF-000305",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-26T14:00:00",
+    "shift_end": "2026-10-26T22:00:00",
+    "created_at": "2026-10-25T14:00:00"
+  },
+  {
+    "id": "SHF-000306",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-26T22:00:00",
+    "shift_end": "2026-10-27T06:00:00",
+    "created_at": "2026-10-25T22:00:00"
+  },
+  {
+    "id": "SHF-000307",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-26T06:00:00",
+    "shift_end": "2026-10-26T14:00:00",
+    "created_at": "2026-10-25T06:00:00"
+  },
+  {
+    "id": "SHF-000308",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-26T14:00:00",
+    "shift_end": "2026-10-26T22:00:00",
+    "created_at": "2026-10-25T14:00:00"
+  },
+  {
+    "id": "SHF-000309",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-26T22:00:00",
+    "shift_end": "2026-10-27T06:00:00",
+    "created_at": "2026-10-25T22:00:00"
+  },
+  {
+    "id": "SHF-000310",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-26T06:00:00",
+    "shift_end": "2026-10-26T14:00:00",
+    "created_at": "2026-10-25T06:00:00"
+  },
+  {
+    "id": "SHF-000311",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-26T14:00:00",
+    "shift_end": "2026-10-26T22:00:00",
+    "created_at": "2026-10-25T14:00:00"
+  },
+  {
+    "id": "SHF-000312",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-26T22:00:00",
+    "shift_end": "2026-10-27T06:00:00",
+    "created_at": "2026-10-25T22:00:00"
+  },
+  {
+    "id": "SHF-000313",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-27T06:00:00",
+    "shift_end": "2026-10-27T14:00:00",
+    "created_at": "2026-10-26T06:00:00"
+  },
+  {
+    "id": "SHF-000314",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-27T14:00:00",
+    "shift_end": "2026-10-27T22:00:00",
+    "created_at": "2026-10-26T14:00:00"
+  },
+  {
+    "id": "SHF-000315",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-27T22:00:00",
+    "shift_end": "2026-10-28T06:00:00",
+    "created_at": "2026-10-26T22:00:00"
+  },
+  {
+    "id": "SHF-000316",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-27T06:00:00",
+    "shift_end": "2026-10-27T14:00:00",
+    "created_at": "2026-10-26T06:00:00"
+  },
+  {
+    "id": "SHF-000317",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-27T14:00:00",
+    "shift_end": "2026-10-27T22:00:00",
+    "created_at": "2026-10-26T14:00:00"
+  },
+  {
+    "id": "SHF-000318",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-27T22:00:00",
+    "shift_end": "2026-10-28T06:00:00",
+    "created_at": "2026-10-26T22:00:00"
+  },
+  {
+    "id": "SHF-000319",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-27T06:00:00",
+    "shift_end": "2026-10-27T14:00:00",
+    "created_at": "2026-10-26T06:00:00"
+  },
+  {
+    "id": "SHF-000320",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-27T14:00:00",
+    "shift_end": "2026-10-27T22:00:00",
+    "created_at": "2026-10-26T14:00:00"
+  },
+  {
+    "id": "SHF-000321",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-27T22:00:00",
+    "shift_end": "2026-10-28T06:00:00",
+    "created_at": "2026-10-26T22:00:00"
+  },
+  {
+    "id": "SHF-000322",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-27T06:00:00",
+    "shift_end": "2026-10-27T14:00:00",
+    "created_at": "2026-10-26T06:00:00"
+  },
+  {
+    "id": "SHF-000323",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-27T14:00:00",
+    "shift_end": "2026-10-27T22:00:00",
+    "created_at": "2026-10-26T14:00:00"
+  },
+  {
+    "id": "SHF-000324",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-27T22:00:00",
+    "shift_end": "2026-10-28T06:00:00",
+    "created_at": "2026-10-26T22:00:00"
+  },
+  {
+    "id": "SHF-000325",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-28T06:00:00",
+    "shift_end": "2026-10-28T14:00:00",
+    "created_at": "2026-10-27T06:00:00"
+  },
+  {
+    "id": "SHF-000326",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-28T14:00:00",
+    "shift_end": "2026-10-28T22:00:00",
+    "created_at": "2026-10-27T14:00:00"
+  },
+  {
+    "id": "SHF-000327",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-28T22:00:00",
+    "shift_end": "2026-10-29T06:00:00",
+    "created_at": "2026-10-27T22:00:00"
+  },
+  {
+    "id": "SHF-000328",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-28T06:00:00",
+    "shift_end": "2026-10-28T14:00:00",
+    "created_at": "2026-10-27T06:00:00"
+  },
+  {
+    "id": "SHF-000329",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-28T14:00:00",
+    "shift_end": "2026-10-28T22:00:00",
+    "created_at": "2026-10-27T14:00:00"
+  },
+  {
+    "id": "SHF-000330",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-28T22:00:00",
+    "shift_end": "2026-10-29T06:00:00",
+    "created_at": "2026-10-27T22:00:00"
+  },
+  {
+    "id": "SHF-000331",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-28T06:00:00",
+    "shift_end": "2026-10-28T14:00:00",
+    "created_at": "2026-10-27T06:00:00"
+  },
+  {
+    "id": "SHF-000332",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-28T14:00:00",
+    "shift_end": "2026-10-28T22:00:00",
+    "created_at": "2026-10-27T14:00:00"
+  },
+  {
+    "id": "SHF-000333",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-28T22:00:00",
+    "shift_end": "2026-10-29T06:00:00",
+    "created_at": "2026-10-27T22:00:00"
+  },
+  {
+    "id": "SHF-000334",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-28T06:00:00",
+    "shift_end": "2026-10-28T14:00:00",
+    "created_at": "2026-10-27T06:00:00"
+  },
+  {
+    "id": "SHF-000335",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-28T14:00:00",
+    "shift_end": "2026-10-28T22:00:00",
+    "created_at": "2026-10-27T14:00:00"
+  },
+  {
+    "id": "SHF-000336",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-28T22:00:00",
+    "shift_end": "2026-10-29T06:00:00",
+    "created_at": "2026-10-27T22:00:00"
+  },
+  {
+    "id": "SHF-000337",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-29T06:00:00",
+    "shift_end": "2026-10-29T14:00:00",
+    "created_at": "2026-10-28T06:00:00"
+  },
+  {
+    "id": "SHF-000338",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-29T14:00:00",
+    "shift_end": "2026-10-29T22:00:00",
+    "created_at": "2026-10-28T14:00:00"
+  },
+  {
+    "id": "SHF-000339",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-29T22:00:00",
+    "shift_end": "2026-10-30T06:00:00",
+    "created_at": "2026-10-28T22:00:00"
+  },
+  {
+    "id": "SHF-000340",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-29T06:00:00",
+    "shift_end": "2026-10-29T14:00:00",
+    "created_at": "2026-10-28T06:00:00"
+  },
+  {
+    "id": "SHF-000341",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-29T14:00:00",
+    "shift_end": "2026-10-29T22:00:00",
+    "created_at": "2026-10-28T14:00:00"
+  },
+  {
+    "id": "SHF-000342",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-29T22:00:00",
+    "shift_end": "2026-10-30T06:00:00",
+    "created_at": "2026-10-28T22:00:00"
+  },
+  {
+    "id": "SHF-000343",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-29T06:00:00",
+    "shift_end": "2026-10-29T14:00:00",
+    "created_at": "2026-10-28T06:00:00"
+  },
+  {
+    "id": "SHF-000344",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-29T14:00:00",
+    "shift_end": "2026-10-29T22:00:00",
+    "created_at": "2026-10-28T14:00:00"
+  },
+  {
+    "id": "SHF-000345",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-29T22:00:00",
+    "shift_end": "2026-10-30T06:00:00",
+    "created_at": "2026-10-28T22:00:00"
+  },
+  {
+    "id": "SHF-000346",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-29T06:00:00",
+    "shift_end": "2026-10-29T14:00:00",
+    "created_at": "2026-10-28T06:00:00"
+  },
+  {
+    "id": "SHF-000347",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-29T14:00:00",
+    "shift_end": "2026-10-29T22:00:00",
+    "created_at": "2026-10-28T14:00:00"
+  },
+  {
+    "id": "SHF-000348",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-29T22:00:00",
+    "shift_end": "2026-10-30T06:00:00",
+    "created_at": "2026-10-28T22:00:00"
+  },
+  {
+    "id": "SHF-000349",
+    "plant_id": "PLN-001",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Rajesh Nair",
+    "shift_start": "2026-10-30T06:00:00",
+    "shift_end": "2026-10-30T14:00:00",
+    "created_at": "2026-10-29T06:00:00"
+  },
+  {
+    "id": "SHF-000350",
+    "plant_id": "PLN-001",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Sofia Rossi",
+    "shift_start": "2026-10-30T14:00:00",
+    "shift_end": "2026-10-30T22:00:00",
+    "created_at": "2026-10-29T14:00:00"
+  },
+  {
+    "id": "SHF-000351",
+    "plant_id": "PLN-001",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Liam O'Connor",
+    "shift_start": "2026-10-30T22:00:00",
+    "shift_end": "2026-10-31T06:00:00",
+    "created_at": "2026-10-29T22:00:00"
+  },
+  {
+    "id": "SHF-000352",
+    "plant_id": "PLN-002",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Astrid Lindholm",
+    "shift_start": "2026-10-30T06:00:00",
+    "shift_end": "2026-10-30T14:00:00",
+    "created_at": "2026-10-29T06:00:00"
+  },
+  {
+    "id": "SHF-000353",
+    "plant_id": "PLN-002",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Mateo Hernandez",
+    "shift_start": "2026-10-30T14:00:00",
+    "shift_end": "2026-10-30T22:00:00",
+    "created_at": "2026-10-29T14:00:00"
+  },
+  {
+    "id": "SHF-000354",
+    "plant_id": "PLN-002",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Marcus Vance",
+    "shift_start": "2026-10-30T22:00:00",
+    "shift_end": "2026-10-31T06:00:00",
+    "created_at": "2026-10-29T22:00:00"
+  },
+  {
+    "id": "SHF-000355",
+    "plant_id": "PLN-003",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Elena Rostova",
+    "shift_start": "2026-10-30T06:00:00",
+    "shift_end": "2026-10-30T14:00:00",
+    "created_at": "2026-10-29T06:00:00"
+  },
+  {
+    "id": "SHF-000356",
+    "plant_id": "PLN-003",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Devon Brooks",
+    "shift_start": "2026-10-30T14:00:00",
+    "shift_end": "2026-10-30T22:00:00",
+    "created_at": "2026-10-29T14:00:00"
+  },
+  {
+    "id": "SHF-000357",
+    "plant_id": "PLN-003",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Kenji Sato",
+    "shift_start": "2026-10-30T22:00:00",
+    "shift_end": "2026-10-31T06:00:00",
+    "created_at": "2026-10-29T22:00:00"
+  },
+  {
+    "id": "SHF-000358",
+    "plant_id": "PLN-004",
+    "shift_name": "MORNING",
+    "lead_operator_name": "Fatima Al-Mansoor",
+    "shift_start": "2026-10-30T06:00:00",
+    "shift_end": "2026-10-30T14:00:00",
+    "created_at": "2026-10-29T06:00:00"
+  },
+  {
+    "id": "SHF-000359",
+    "plant_id": "PLN-004",
+    "shift_name": "AFTERNOON",
+    "lead_operator_name": "Lukas Weber",
+    "shift_start": "2026-10-30T14:00:00",
+    "shift_end": "2026-10-30T22:00:00",
+    "created_at": "2026-10-29T14:00:00"
+  },
+  {
+    "id": "SHF-000360",
+    "plant_id": "PLN-004",
+    "shift_name": "NIGHT",
+    "lead_operator_name": "Chloe Dubois",
+    "shift_start": "2026-10-30T22:00:00",
+    "shift_end": "2026-10-31T06:00:00",
+    "created_at": "2026-10-29T22:00:00"
+  }
+]

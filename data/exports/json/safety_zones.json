@@ -1,0 +1,182 @@
+[
+  {
+    "id": "SAFE-PLN-001-001",
+    "plant_id": "PLN-001",
+    "name": "Apex Primary Robotic Enclosure",
+    "zone_type": "EXCLUSION",
+    "hazard_level": "HIGH",
+    "max_occupancy": 0,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-001-002",
+    "plant_id": "PLN-001",
+    "name": "Apex High Pressure Hydraulic Bay",
+    "zone_type": "HAZARDOUS",
+    "hazard_level": "HIGH",
+    "max_occupancy": 3,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-001-003",
+    "plant_id": "PLN-001",
+    "name": "Apex Thermal Annealing & Furnace Area",
+    "zone_type": "HAZARDOUS",
+    "hazard_level": "MEDIUM",
+    "max_occupancy": 4,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-001-004",
+    "plant_id": "PLN-001",
+    "name": "Apex Automated Conveyance Corridor",
+    "zone_type": "CONTROLLED",
+    "hazard_level": "MEDIUM",
+    "max_occupancy": 8,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-001-005",
+    "plant_id": "PLN-001",
+    "name": "Apex Operator Supervision & QC Deck",
+    "zone_type": "GENERAL",
+    "hazard_level": "LOW",
+    "max_occupancy": 20,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-002-001",
+    "plant_id": "PLN-002",
+    "name": "Bavaria Primary Robotic Enclosure",
+    "zone_type": "EXCLUSION",
+    "hazard_level": "HIGH",
+    "max_occupancy": 0,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-002-002",
+    "plant_id": "PLN-002",
+    "name": "Bavaria High Pressure Hydraulic Bay",
+    "zone_type": "HAZARDOUS",
+    "hazard_level": "HIGH",
+    "max_occupancy": 3,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-002-003",
+    "plant_id": "PLN-002",
+    "name": "Bavaria Thermal Annealing & Furnace Area",
+    "zone_type": "HAZARDOUS",
+    "hazard_level": "MEDIUM",
+    "max_occupancy": 4,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-002-004",
+    "plant_id": "PLN-002",
+    "name": "Bavaria Automated Conveyance Corridor",
+    "zone_type": "CONTROLLED",
+    "hazard_level": "MEDIUM",
+    "max_occupancy": 8,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-002-005",
+    "plant_id": "PLN-002",
+    "name": "Bavaria Operator Supervision & QC Deck",
+    "zone_type": "GENERAL",
+    "hazard_level": "LOW",
+    "max_occupancy": 20,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-003-001",
+    "plant_id": "PLN-003",
+    "name": "Shenzhen Primary Robotic Enclosure",
+    "zone_type": "EXCLUSION",
+    "hazard_level": "HIGH",
+    "max_occupancy": 0,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-003-002",
+    "plant_id": "PLN-003",
+    "name": "Shenzhen High Pressure Hydraulic Bay",
+    "zone_type": "HAZARDOUS",
+    "hazard_level": "HIGH",
+    "max_occupancy": 3,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-003-003",
+    "plant_id": "PLN-003",
+    "name": "Shenzhen Thermal Annealing & Furnace Area",
+    "zone_type": "HAZARDOUS",
+    "hazard_level": "MEDIUM",
+    "max_occupancy": 4,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-003-004",
+    "plant_id": "PLN-003",
+    "name": "Shenzhen Automated Conveyance Corridor",
+    "zone_type": "CONTROLLED",
+    "hazard_level": "MEDIUM",
+    "max_occupancy": 8,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-003-005",
+    "plant_id": "PLN-003",
+    "name": "Shenzhen Operator Supervision & QC Deck",
+    "zone_type": "GENERAL",
+    "hazard_level": "LOW",
+    "max_occupancy": 20,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-004-001",
+    "plant_id": "PLN-004",
+    "name": "Solway Primary Robotic Enclosure",
+    "zone_type": "EXCLUSION",
+    "hazard_level": "HIGH",
+    "max_occupancy": 0,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-004-002",
+    "plant_id": "PLN-004",
+    "name": "Solway High Pressure Hydraulic Bay",
+    "zone_type": "HAZARDOUS",
+    "hazard_level": "HIGH",
+    "max_occupancy": 3,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-004-003",
+    "plant_id": "PLN-004",
+    "name": "Solway Thermal Annealing & Furnace Area",
+    "zone_type": "HAZARDOUS",
+    "hazard_level": "MEDIUM",
+    "max_occupancy": 4,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-004-004",
+    "plant_id": "PLN-004",
+    "name": "Solway Automated Conveyance Corridor",
+    "zone_type": "CONTROLLED",
+    "hazard_level": "MEDIUM",
+    "max_occupancy": 8,
+    "created_at": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "SAFE-PLN-004-005",
+    "plant_id": "PLN-004",
+    "name": "Solway Operator Supervision & QC Deck",
+    "zone_type": "GENERAL",
+    "hazard_level": "LOW",
+    "max_occupancy": 20,
+    "created_at": "2026-10-01T00:00:00"
+  }
+]

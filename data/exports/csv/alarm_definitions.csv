@@ -1,0 +1,201 @@
+id,code,name,description,severity,category,ack_sla_seconds,requires_clearance,created_at
+DEF-001,ALM-CODE-0001,Safety Interlock - Class 1,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #1).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-002,ALM-CODE-0002,Overheating - Class 1,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #2).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-003,ALM-CODE-0003,Pressure Anomaly - Class 1,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #3).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-004,ALM-CODE-0004,Vibration - Class 1,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #4).,LOW,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-005,ALM-CODE-0005,Emergency Shutdown - Class 1,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #5).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-006,ALM-CODE-0006,Toxic Gas - Class 1,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #6).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-007,ALM-CODE-0007,Electrical Fault - Class 1,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #7).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-008,ALM-CODE-0008,Process Deviation - Class 1,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #8).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-009,ALM-CODE-0009,Safety Interlock - Class 2,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #9).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-010,ALM-CODE-0010,Overheating - Class 2,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #10).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-011,ALM-CODE-0011,Pressure Anomaly - Class 2,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #11).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-012,ALM-CODE-0012,Vibration - Class 2,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #12).,LOW,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-013,ALM-CODE-0013,Emergency Shutdown - Class 2,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #13).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-014,ALM-CODE-0014,Toxic Gas - Class 2,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #14).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-015,ALM-CODE-0015,Electrical Fault - Class 2,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #15).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-016,ALM-CODE-0016,Process Deviation - Class 2,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #16).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-017,ALM-CODE-0017,Safety Interlock - Class 3,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #17).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-018,ALM-CODE-0018,Overheating - Class 3,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #18).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-019,ALM-CODE-0019,Pressure Anomaly - Class 3,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #19).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-020,ALM-CODE-0020,Vibration - Class 3,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #20).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-021,ALM-CODE-0021,Emergency Shutdown - Class 3,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #21).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-022,ALM-CODE-0022,Toxic Gas - Class 3,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #22).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-023,ALM-CODE-0023,Electrical Fault - Class 3,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #23).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-024,ALM-CODE-0024,Process Deviation - Class 3,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #24).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-025,ALM-CODE-0025,Safety Interlock - Class 4,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #25).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-026,ALM-CODE-0026,Overheating - Class 4,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #26).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-027,ALM-CODE-0027,Pressure Anomaly - Class 4,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #27).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-028,ALM-CODE-0028,Vibration - Class 4,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #28).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-029,ALM-CODE-0029,Emergency Shutdown - Class 4,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #29).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-030,ALM-CODE-0030,Toxic Gas - Class 4,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #30).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-031,ALM-CODE-0031,Electrical Fault - Class 4,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #31).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-032,ALM-CODE-0032,Process Deviation - Class 4,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #32).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-033,ALM-CODE-0033,Safety Interlock - Class 5,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #33).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-034,ALM-CODE-0034,Overheating - Class 5,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #34).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-035,ALM-CODE-0035,Pressure Anomaly - Class 5,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #35).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-036,ALM-CODE-0036,Vibration - Class 5,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #36).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-037,ALM-CODE-0037,Emergency Shutdown - Class 5,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #37).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-038,ALM-CODE-0038,Toxic Gas - Class 5,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #38).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-039,ALM-CODE-0039,Electrical Fault - Class 5,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #39).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-040,ALM-CODE-0040,Process Deviation - Class 5,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #40).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-041,ALM-CODE-0041,Safety Interlock - Class 6,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #41).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-042,ALM-CODE-0042,Overheating - Class 6,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #42).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-043,ALM-CODE-0043,Pressure Anomaly - Class 6,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #43).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-044,ALM-CODE-0044,Vibration - Class 6,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #44).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-045,ALM-CODE-0045,Emergency Shutdown - Class 6,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #45).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-046,ALM-CODE-0046,Toxic Gas - Class 6,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #46).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-047,ALM-CODE-0047,Electrical Fault - Class 6,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #47).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-048,ALM-CODE-0048,Process Deviation - Class 6,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #48).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-049,ALM-CODE-0049,Safety Interlock - Class 7,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #49).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-050,ALM-CODE-0050,Overheating - Class 7,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #50).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-051,ALM-CODE-0051,Pressure Anomaly - Class 7,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #51).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-052,ALM-CODE-0052,Vibration - Class 7,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #52).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-053,ALM-CODE-0053,Emergency Shutdown - Class 7,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #53).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-054,ALM-CODE-0054,Toxic Gas - Class 7,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #54).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-055,ALM-CODE-0055,Electrical Fault - Class 7,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #55).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-056,ALM-CODE-0056,Process Deviation - Class 7,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #56).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-057,ALM-CODE-0057,Safety Interlock - Class 8,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #57).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-058,ALM-CODE-0058,Overheating - Class 8,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #58).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-059,ALM-CODE-0059,Pressure Anomaly - Class 8,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #59).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-060,ALM-CODE-0060,Vibration - Class 8,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #60).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-061,ALM-CODE-0061,Emergency Shutdown - Class 8,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #61).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-062,ALM-CODE-0062,Toxic Gas - Class 8,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #62).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-063,ALM-CODE-0063,Electrical Fault - Class 8,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #63).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-064,ALM-CODE-0064,Process Deviation - Class 8,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #64).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-065,ALM-CODE-0065,Safety Interlock - Class 9,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #65).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-066,ALM-CODE-0066,Overheating - Class 9,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #66).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-067,ALM-CODE-0067,Pressure Anomaly - Class 9,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #67).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-068,ALM-CODE-0068,Vibration - Class 9,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #68).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-069,ALM-CODE-0069,Emergency Shutdown - Class 9,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #69).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-070,ALM-CODE-0070,Toxic Gas - Class 9,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #70).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-071,ALM-CODE-0071,Electrical Fault - Class 9,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #71).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-072,ALM-CODE-0072,Process Deviation - Class 9,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #72).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-073,ALM-CODE-0073,Safety Interlock - Class 10,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #73).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-074,ALM-CODE-0074,Overheating - Class 10,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #74).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-075,ALM-CODE-0075,Pressure Anomaly - Class 10,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #75).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-076,ALM-CODE-0076,Vibration - Class 10,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #76).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-077,ALM-CODE-0077,Emergency Shutdown - Class 10,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #77).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-078,ALM-CODE-0078,Toxic Gas - Class 10,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #78).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-079,ALM-CODE-0079,Electrical Fault - Class 10,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #79).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-080,ALM-CODE-0080,Process Deviation - Class 10,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #80).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-081,ALM-CODE-0081,Safety Interlock - Class 1,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #81).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-082,ALM-CODE-0082,Overheating - Class 1,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #82).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-083,ALM-CODE-0083,Pressure Anomaly - Class 1,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #83).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-084,ALM-CODE-0084,Vibration - Class 1,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #84).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-085,ALM-CODE-0085,Emergency Shutdown - Class 1,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #85).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-086,ALM-CODE-0086,Toxic Gas - Class 1,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #86).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-087,ALM-CODE-0087,Electrical Fault - Class 1,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #87).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-088,ALM-CODE-0088,Process Deviation - Class 1,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #88).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-089,ALM-CODE-0089,Safety Interlock - Class 2,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #89).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-090,ALM-CODE-0090,Overheating - Class 2,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #90).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-091,ALM-CODE-0091,Pressure Anomaly - Class 2,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #91).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-092,ALM-CODE-0092,Vibration - Class 2,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #92).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-093,ALM-CODE-0093,Emergency Shutdown - Class 2,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #93).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-094,ALM-CODE-0094,Toxic Gas - Class 2,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #94).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-095,ALM-CODE-0095,Electrical Fault - Class 2,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #95).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-096,ALM-CODE-0096,Process Deviation - Class 2,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #96).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-097,ALM-CODE-0097,Safety Interlock - Class 3,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #97).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-098,ALM-CODE-0098,Overheating - Class 3,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #98).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-099,ALM-CODE-0099,Pressure Anomaly - Class 3,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #99).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-100,ALM-CODE-0100,Vibration - Class 3,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #100).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-101,ALM-CODE-0101,Emergency Shutdown - Class 3,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #101).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-102,ALM-CODE-0102,Toxic Gas - Class 3,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #102).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-103,ALM-CODE-0103,Electrical Fault - Class 3,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #103).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-104,ALM-CODE-0104,Process Deviation - Class 3,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #104).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-105,ALM-CODE-0105,Safety Interlock - Class 4,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #105).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-106,ALM-CODE-0106,Overheating - Class 4,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #106).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-107,ALM-CODE-0107,Pressure Anomaly - Class 4,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #107).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-108,ALM-CODE-0108,Vibration - Class 4,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #108).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-109,ALM-CODE-0109,Emergency Shutdown - Class 4,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #109).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-110,ALM-CODE-0110,Toxic Gas - Class 4,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #110).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-111,ALM-CODE-0111,Electrical Fault - Class 4,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #111).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-112,ALM-CODE-0112,Process Deviation - Class 4,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #112).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-113,ALM-CODE-0113,Safety Interlock - Class 5,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #113).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-114,ALM-CODE-0114,Overheating - Class 5,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #114).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-115,ALM-CODE-0115,Pressure Anomaly - Class 5,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #115).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-116,ALM-CODE-0116,Vibration - Class 5,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #116).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-117,ALM-CODE-0117,Emergency Shutdown - Class 5,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #117).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-118,ALM-CODE-0118,Toxic Gas - Class 5,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #118).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-119,ALM-CODE-0119,Electrical Fault - Class 5,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #119).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-120,ALM-CODE-0120,Process Deviation - Class 5,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #120).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-121,ALM-CODE-0121,Safety Interlock - Class 6,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #121).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-122,ALM-CODE-0122,Overheating - Class 6,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #122).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-123,ALM-CODE-0123,Pressure Anomaly - Class 6,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #123).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-124,ALM-CODE-0124,Vibration - Class 6,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #124).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-125,ALM-CODE-0125,Emergency Shutdown - Class 6,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #125).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-126,ALM-CODE-0126,Toxic Gas - Class 6,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #126).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-127,ALM-CODE-0127,Electrical Fault - Class 6,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #127).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-128,ALM-CODE-0128,Process Deviation - Class 6,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #128).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-129,ALM-CODE-0129,Safety Interlock - Class 7,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #129).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-130,ALM-CODE-0130,Overheating - Class 7,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #130).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-131,ALM-CODE-0131,Pressure Anomaly - Class 7,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #131).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-132,ALM-CODE-0132,Vibration - Class 7,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #132).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-133,ALM-CODE-0133,Emergency Shutdown - Class 7,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #133).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-134,ALM-CODE-0134,Toxic Gas - Class 7,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #134).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-135,ALM-CODE-0135,Electrical Fault - Class 7,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #135).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-136,ALM-CODE-0136,Process Deviation - Class 7,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #136).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-137,ALM-CODE-0137,Safety Interlock - Class 8,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #137).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-138,ALM-CODE-0138,Overheating - Class 8,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #138).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-139,ALM-CODE-0139,Pressure Anomaly - Class 8,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #139).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-140,ALM-CODE-0140,Vibration - Class 8,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #140).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-141,ALM-CODE-0141,Emergency Shutdown - Class 8,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #141).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-142,ALM-CODE-0142,Toxic Gas - Class 8,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #142).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-143,ALM-CODE-0143,Electrical Fault - Class 8,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #143).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-144,ALM-CODE-0144,Process Deviation - Class 8,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #144).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-145,ALM-CODE-0145,Safety Interlock - Class 9,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #145).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-146,ALM-CODE-0146,Overheating - Class 9,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #146).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-147,ALM-CODE-0147,Pressure Anomaly - Class 9,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #147).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-148,ALM-CODE-0148,Vibration - Class 9,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #148).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-149,ALM-CODE-0149,Emergency Shutdown - Class 9,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #149).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-150,ALM-CODE-0150,Toxic Gas - Class 9,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #150).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-151,ALM-CODE-0151,Electrical Fault - Class 9,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #151).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-152,ALM-CODE-0152,Process Deviation - Class 9,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #152).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-153,ALM-CODE-0153,Safety Interlock - Class 10,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #153).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-154,ALM-CODE-0154,Overheating - Class 10,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #154).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-155,ALM-CODE-0155,Pressure Anomaly - Class 10,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #155).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-156,ALM-CODE-0156,Vibration - Class 10,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #156).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-157,ALM-CODE-0157,Emergency Shutdown - Class 10,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #157).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-158,ALM-CODE-0158,Toxic Gas - Class 10,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #158).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-159,ALM-CODE-0159,Electrical Fault - Class 10,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #159).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-160,ALM-CODE-0160,Process Deviation - Class 10,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #160).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-161,ALM-CODE-0161,Safety Interlock - Class 1,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #161).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-162,ALM-CODE-0162,Overheating - Class 1,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #162).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-163,ALM-CODE-0163,Pressure Anomaly - Class 1,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #163).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-164,ALM-CODE-0164,Vibration - Class 1,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #164).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-165,ALM-CODE-0165,Emergency Shutdown - Class 1,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #165).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-166,ALM-CODE-0166,Toxic Gas - Class 1,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #166).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-167,ALM-CODE-0167,Electrical Fault - Class 1,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #167).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-168,ALM-CODE-0168,Process Deviation - Class 1,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #168).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-169,ALM-CODE-0169,Safety Interlock - Class 2,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #169).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-170,ALM-CODE-0170,Overheating - Class 2,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #170).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-171,ALM-CODE-0171,Pressure Anomaly - Class 2,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #171).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-172,ALM-CODE-0172,Vibration - Class 2,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #172).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-173,ALM-CODE-0173,Emergency Shutdown - Class 2,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #173).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-174,ALM-CODE-0174,Toxic Gas - Class 2,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #174).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-175,ALM-CODE-0175,Electrical Fault - Class 2,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #175).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-176,ALM-CODE-0176,Process Deviation - Class 2,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #176).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-177,ALM-CODE-0177,Safety Interlock - Class 3,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #177).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-178,ALM-CODE-0178,Overheating - Class 3,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #178).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-179,ALM-CODE-0179,Pressure Anomaly - Class 3,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #179).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-180,ALM-CODE-0180,Vibration - Class 3,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #180).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-181,ALM-CODE-0181,Emergency Shutdown - Class 3,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #181).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-182,ALM-CODE-0182,Toxic Gas - Class 3,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #182).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-183,ALM-CODE-0183,Electrical Fault - Class 3,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #183).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-184,ALM-CODE-0184,Process Deviation - Class 3,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #184).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-185,ALM-CODE-0185,Safety Interlock - Class 4,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #185).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-186,ALM-CODE-0186,Overheating - Class 4,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #186).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-187,ALM-CODE-0187,Pressure Anomaly - Class 4,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #187).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-188,ALM-CODE-0188,Vibration - Class 4,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #188).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-189,ALM-CODE-0189,Emergency Shutdown - Class 4,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #189).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-190,ALM-CODE-0190,Toxic Gas - Class 4,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #190).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-191,ALM-CODE-0191,Electrical Fault - Class 4,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #191).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-192,ALM-CODE-0192,Process Deviation - Class 4,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #192).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00
+DEF-193,ALM-CODE-0193,Safety Interlock - Class 5,Critical Safety Interlock Trip or Open Circuit (Specification Ref: ISO-13849/IEC-62061 standard check #193).,CRITICAL,SAFETY_INTERLOCK,300,True,2026-08-02T00:00:00
+DEF-194,ALM-CODE-0194,Overheating - Class 5,Bearing / Winding Temperature Exceedance (Specification Ref: ISO-13849/IEC-62061 standard check #194).,HIGH,OVERHEATING,900,True,2026-08-02T00:00:00
+DEF-195,ALM-CODE-0195,Pressure Anomaly - Class 5,Hydraulic Line Pressure Out of Range (Specification Ref: ISO-13849/IEC-62061 standard check #195).,HIGH,PRESSURE_ANOMALY,900,True,2026-08-02T00:00:00
+DEF-196,ALM-CODE-0196,Vibration - Class 5,Radial Shaft Harmonic Vibration Warning (Specification Ref: ISO-13849/IEC-62061 standard check #196).,MEDIUM,VIBRATION,1800,False,2026-08-02T00:00:00
+DEF-197,ALM-CODE-0197,Emergency Shutdown - Class 5,Operator E-Stop Trigger Activated (Specification Ref: ISO-13849/IEC-62061 standard check #197).,CRITICAL,EMERGENCY_SHUTDOWN,300,True,2026-08-02T00:00:00
+DEF-198,ALM-CODE-0198,Toxic Gas - Class 5,Atmospheric VOC / Toxic Gas Concentration Alert (Specification Ref: ISO-13849/IEC-62061 standard check #198).,CRITICAL,TOXIC_GAS,300,True,2026-08-02T00:00:00
+DEF-199,ALM-CODE-0199,Electrical Fault - Class 5,Ground Fault / Phase Imbalance Detected (Specification Ref: ISO-13849/IEC-62061 standard check #199).,MEDIUM,ELECTRICAL_FAULT,1800,False,2026-08-02T00:00:00
+DEF-200,ALM-CODE-0200,Process Deviation - Class 5,Conveyor Feed Speed Mismatch (Specification Ref: ISO-13849/IEC-62061 standard check #200).,LOW,PROCESS_DEVIATION,3600,False,2026-08-02T00:00:00

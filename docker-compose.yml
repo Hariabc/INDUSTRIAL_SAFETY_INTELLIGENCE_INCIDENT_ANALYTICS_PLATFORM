@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: safety_intel_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+      POSTGRES_DB: safety_intel
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d safety_intel"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: safety_intel_backend
+    environment:
+      - ENVIRONMENT=production
+      - PROJECT_NAME="Industrial Safety Intelligence Platform"
+      - DATABASE_URL=postgresql://postgres:postgrespassword@db:5432/safety_intel
+      - ACK_SLA_CRITICAL_SECONDS=300
+      - ACK_SLA_HIGH_SECONDS=900
+      - ACK_SLA_MEDIUM_SECONDS=1800
+      - ACK_SLA_LOW_SECONDS=3600
+      - ALARM_FLOOD_THRESHOLD=10
+      - ALARM_FLOOD_WINDOW_MINUTES=10
+      - REPEATED_UNSAFE_WINDOW_HOURS=24
+      - REPEATED_UNSAFE_MIN_EVENTS=3
+      - NUISANCE_ALARM_MIN_COUNT=15
+      - NUISANCE_MAX_INCIDENT_RATE=0.05
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    command: >
+      sh -c "alembic -c backend/alembic.ini upgrade head &&
+             python -m generator.generate --seed 20261022 --load-db &&
+             uvicorn backend.app.main:app --host 0.0.0.0 --port 8000"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: safety_intel_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

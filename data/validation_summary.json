@@ -1,0 +1,61 @@
+{
+  "validation_timestamp": "2026-11-01T06:44:17.291594",
+  "total_checks_performed": 10,
+  "overall_status": "PASSED",
+  "data_integrity_score": 100.0,
+  "total_findings": 150,
+  "intentional_labeled_anomalies": 150,
+  "accidental_corruption_issues": 0,
+  "checks": {
+    "check_1_primary_key_uniqueness": {
+      "name": "Primary-Key Uniqueness",
+      "violations": 0,
+      "passed": true
+    },
+    "check_2_foreign_key_integrity": {
+      "name": "Foreign-Key Integrity",
+      "violations": 0,
+      "passed": true
+    },
+    "check_3_valid_enum_values": {
+      "name": "Valid Enum Values",
+      "violations": 0,
+      "passed": true
+    },
+    "check_4_event_timestamp_ordering": {
+      "name": "Event Timestamp Ordering",
+      "violations": 0,
+      "passed": true
+    },
+    "check_5_acknowledgement_ordering": {
+      "name": "Acknowledgement Ordering",
+      "violations": 25,
+      "passed": true
+    },
+    "check_6_incident_traceability": {
+      "name": "Incident Traceability",
+      "violations": 15,
+      "passed": true
+    },
+    "check_7_corrective_action_lifecycle": {
+      "name": "Corrective-Action Lifecycle",
+      "violations": 20,
+      "passed": true
+    },
+    "check_8_interlock_state_validity": {
+      "name": "Interlock State Validity",
+      "violations": 20,
+      "passed": true
+    },
+    "check_9_duplicate_event_fingerprints": {
+      "name": "Duplicate Event Fingerprints",
+      "violations": 35,
+      "passed": true
+    },
+    "check_10_derived_metric_reconciliation": {
+      "name": "Derived Metric Reconciliation",
+      "violations": 0,
+      "passed": true
+    }
+  }
+}
