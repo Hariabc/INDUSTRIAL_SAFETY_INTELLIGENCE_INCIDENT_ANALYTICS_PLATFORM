@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from typing import List
 from backend.app.database import get_db
 from backend.app.models import Plant, Machine, SafetyZone, AlarmEvent, Incident
-from backend.app.schemas.plant import PlantSchema, PlantDetailSchema
+from backend.app.schemas.plant import PlantDetailSchema
 
 router = APIRouter(prefix="/plants", tags=["Plants"])
 

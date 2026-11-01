@@ -1,7 +1,6 @@
-from datetime import datetime
 from sqlalchemy import Column, String, Float, Integer, Boolean, DateTime, ForeignKey, Index
 from sqlalchemy.orm import relationship
-from backend.app.database import Base
+from backend.app.database import Base, utcnow
 
 
 class AlarmDefinition(Base):
@@ -15,7 +14,7 @@ class AlarmDefinition(Base):
     category = Column(String(100), nullable=False, index=True)  # SAFETY_INTERLOCK, OVERHEATING, PRESSURE_ANOMALY, VIBRATION, EMERGENCY_SHUTDOWN, TOXIC_GAS, ELECTRICAL_FAULT
     ack_sla_seconds = Column(Integer, nullable=False, default=1800)
     requires_clearance = Column(Boolean, default=True)
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=utcnow)
 
     # Relationships
     events = relationship("AlarmEvent", back_populates="definition")
@@ -37,7 +36,7 @@ class AlarmEvent(Base):
     event_timestamp = Column(DateTime, nullable=False, index=True)
     cleared_timestamp = Column(DateTime, nullable=True)
     is_nuisance = Column(Boolean, default=False, index=True)
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=utcnow)
 
     # Relationships
     definition = relationship("AlarmDefinition", back_populates="events")
@@ -65,7 +64,7 @@ class Acknowledgement(Base):
     ack_delay_seconds = Column(Float, nullable=False)
     sla_status = Column(String(50), nullable=False, index=True)  # WITHIN_SLA, DELAYED, ANOMALOUS_PRE_ALARM
     notes = Column(String(500), nullable=True)
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=utcnow)
 
     # Relationships
     alarm_event = relationship("AlarmEvent", back_populates="acknowledgements")

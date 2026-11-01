@@ -1,7 +1,6 @@
-from datetime import datetime
 from sqlalchemy import Column, String, Boolean, DateTime, ForeignKey, Index
 from sqlalchemy.orm import relationship
-from backend.app.database import Base
+from backend.app.database import Base, utcnow
 
 
 class CorrectiveAction(Base):
@@ -21,8 +20,8 @@ class CorrectiveAction(Base):
     verified_by = Column(String(100), nullable=True)
     verified_at = Column(DateTime, nullable=True)
     verification_notes = Column(String(500), nullable=True)
-    created_at = Column(DateTime, default=datetime.utcnow)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    created_at = Column(DateTime, default=utcnow)
+    updated_at = Column(DateTime, default=utcnow, onupdate=utcnow)
 
     # Relationships
     incident = relationship("Incident", back_populates="corrective_actions")

@@ -1,7 +1,6 @@
-from datetime import datetime
 from sqlalchemy import Column, String, DateTime, ForeignKey, Index
 from sqlalchemy.orm import relationship
-from backend.app.database import Base
+from backend.app.database import Base, utcnow
 
 
 class OperatorShift(Base):
@@ -13,7 +12,7 @@ class OperatorShift(Base):
     lead_operator_name = Column(String(100), nullable=False)
     shift_start = Column(DateTime, nullable=False, index=True)
     shift_end = Column(DateTime, nullable=False, index=True)
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=utcnow)
 
     # Relationships
     plant = relationship("Plant", back_populates="shifts")

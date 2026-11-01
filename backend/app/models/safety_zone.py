@@ -1,7 +1,6 @@
-from datetime import datetime
 from sqlalchemy import Column, String, Integer, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
-from backend.app.database import Base
+from backend.app.database import Base, utcnow
 
 
 class SafetyZone(Base):
@@ -13,7 +12,7 @@ class SafetyZone(Base):
     zone_type = Column(String(50), default="CONTROLLED")  # HAZARDOUS, EXCLUSION, CONTROLLED, GENERAL
     hazard_level = Column(String(50), default="MEDIUM")  # HIGH, MEDIUM, LOW
     max_occupancy = Column(Integer, default=5)
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=utcnow)
 
     # Relationships
     plant = relationship("Plant", back_populates="safety_zones")
@@ -28,7 +27,7 @@ class MachineSafetyZone(Base):
     machine_id = Column(String(50), ForeignKey("machines.id"), nullable=False, index=True)
     safety_zone_id = Column(String(50), ForeignKey("safety_zones.id"), nullable=False, index=True)
     coverage_type = Column(String(50), default="PRIMARY")  # PRIMARY, SECONDARY
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=utcnow)
 
     # Relationships
     machine = relationship("Machine", back_populates="safety_zone_associations")

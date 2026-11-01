@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import Optional, List
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class SafetyZoneSchema(BaseModel):
@@ -12,8 +12,7 @@ class SafetyZoneSchema(BaseModel):
     max_occupancy: int
     created_at: datetime
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class PlantSchema(BaseModel):
@@ -26,8 +25,7 @@ class PlantSchema(BaseModel):
     created_at: datetime
     updated_at: datetime
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class PlantDetailSchema(PlantSchema):
@@ -48,8 +46,7 @@ class InterlockSchema(BaseModel):
     bypass_allowed: bool
     last_tested_at: Optional[datetime] = None
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class MachineSchema(BaseModel):
@@ -65,8 +62,7 @@ class MachineSchema(BaseModel):
     created_at: datetime
     updated_at: datetime
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class MachineDetailSchema(MachineSchema):

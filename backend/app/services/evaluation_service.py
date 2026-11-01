@@ -1,13 +1,11 @@
 import os
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict, Any, List
 from sqlalchemy.orm import Session
 from sqlalchemy import func
 from backend.app.models import (
-    Plant, Machine, SafetyZone, Interlock,
-    AlarmDefinition, AlarmEvent, Acknowledgement,
-    Incident, CorrectiveAction, SafetyAnomaly
+    AlarmEvent, Acknowledgement, Incident, CorrectiveAction, SafetyAnomaly
 )
 
 
@@ -145,7 +143,7 @@ class ModelEvaluationService:
                 pass
 
         return {
-            "evaluation_timestamp": datetime.utcnow().isoformat(),
+            "evaluation_timestamp": datetime.now(timezone.utc).isoformat(),
             "model_performance": {
                 "true_positives": tp,
                 "false_positives": fp,

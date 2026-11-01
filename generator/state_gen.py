@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-from typing import List, Tuple
+from typing import List
 import random
 from generator.id_generator import IdGenerator
 

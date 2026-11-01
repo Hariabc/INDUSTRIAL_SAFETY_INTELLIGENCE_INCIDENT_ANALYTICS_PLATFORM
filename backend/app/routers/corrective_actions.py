@@ -1,8 +1,8 @@
-from fastapi import APIRouter, Depends, HTTPException, Query, Body
+from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 from sqlalchemy import or_
 from typing import Optional
-from datetime import datetime
+from datetime import datetime, timezone
 from pydantic import BaseModel
 from backend.app.database import get_db
 from backend.app.models import CorrectiveAction, Incident, AuditLog
@@ -126,7 +126,7 @@ def create_corrective_action(payload: CreateActionRequest, db: Session = Depends
         status="PENDING",
         verification_required=True,
         is_verified=False,
-        created_at=datetime.utcnow(),
+        created_at=datetime.now(timezone.utc).replace(tzinfo=None),
     )
     db.add(new_action)
 
@@ -136,7 +136,7 @@ def create_corrective_action(payload: CreateActionRequest, db: Session = Depends
         action="CREATE",
         actor=payload.assigned_to,
         details=f"Created action {act_id} for incident {payload.incident_id}",
-        timestamp=datetime.utcnow()
+        timestamp=datetime.now(timezone.utc).replace(tzinfo=None)
     )
     db.add(audit)
     db.commit()
@@ -153,9 +153,9 @@ def verify_corrective_action(action_id: str, payload: VerifyActionRequest, db: S
 
     action.is_verified = True
     action.verified_by = payload.verified_by
-    action.verified_at = datetime.utcnow()
+    action.verified_at = datetime.now(timezone.utc).replace(tzinfo=None)
     action.verification_notes = payload.verification_notes
-    action.updated_at = datetime.utcnow()
+    action.updated_at = datetime.now(timezone.utc).replace(tzinfo=None)
 
     # If action was COMPLETED, we can now safely move it to CLOSED
     if action.status == "COMPLETED":
@@ -167,7 +167,7 @@ def verify_corrective_action(action_id: str, payload: VerifyActionRequest, db: S
         action="VERIFY",
         actor=payload.verified_by,
         details=f"Safety verification certified: {payload.verification_notes}",
-        timestamp=datetime.utcnow()
+        timestamp=datetime.now(timezone.utc).replace(tzinfo=None)
     )
     db.add(audit)
     db.commit()
@@ -204,8 +204,8 @@ def update_action_status(action_id: str, payload: UpdateActionStatusRequest, db:
 
     action.status = target_status
     if target_status == "COMPLETED" and not action.completed_at:
-        action.completed_at = datetime.utcnow()
-    action.updated_at = datetime.utcnow()
+        action.completed_at = datetime.now(timezone.utc).replace(tzinfo=None)
+    action.updated_at = datetime.now(timezone.utc).replace(tzinfo=None)
 
     audit = AuditLog(
         entity_name="CorrectiveAction",
@@ -213,7 +213,7 @@ def update_action_status(action_id: str, payload: UpdateActionStatusRequest, db:
         action="UPDATE_STATUS",
         actor=payload.actor or "Operator",
         details=f"Action {action.id} status changed to {target_status}",
-        timestamp=datetime.utcnow()
+        timestamp=datetime.now(timezone.utc).replace(tzinfo=None)
     )
     db.add(audit)
     db.commit()

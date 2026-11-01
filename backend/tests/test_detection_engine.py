@@ -1,4 +1,3 @@
-import pytest
 from sqlalchemy.orm import Session
 from backend.app.services.detection_engine import SafetyDetectionEngine
 from backend.app.services.evaluation_service import ModelEvaluationService

@@ -1,8 +1,6 @@
 import os
 import json
 from generator.id_generator import IdGenerator
-from generator.config import GeneratorConfig
-from generator.generate import run_pipeline
 
 
 def test_id_generator_patterns():

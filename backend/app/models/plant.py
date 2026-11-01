@@ -1,7 +1,6 @@
-from datetime import datetime
 from sqlalchemy import Column, String, Float, Integer, DateTime
 from sqlalchemy.orm import relationship
-from backend.app.database import Base
+from backend.app.database import Base, utcnow
 
 
 class Plant(Base):
@@ -13,8 +12,8 @@ class Plant(Base):
     operational_status = Column(String(50), default="ACTIVE")
     total_lines = Column(Integer, default=4)
     safety_score = Column(Float, default=95.0)
-    created_at = Column(DateTime, default=datetime.utcnow)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    created_at = Column(DateTime, default=utcnow)
+    updated_at = Column(DateTime, default=utcnow, onupdate=utcnow)
 
     # Relationships
     machines = relationship("Machine", back_populates="plant", cascade="all, delete-orphan")

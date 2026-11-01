@@ -1,7 +1,6 @@
-from datetime import datetime
 from sqlalchemy import Column, String, DateTime, ForeignKey, Index, Integer
 from sqlalchemy.orm import relationship
-from backend.app.database import Base
+from backend.app.database import Base, utcnow
 
 
 class Incident(Base):
@@ -47,7 +46,7 @@ class IncidentAlarmEvent(Base):
     incident_id = Column(String(50), ForeignKey("incidents.id"), nullable=False, index=True)
     alarm_event_id = Column(String(50), ForeignKey("alarm_events.id"), nullable=False, index=True)
     relationship_type = Column(String(50), default="TRIGGER")  # TRIGGER, CONSEQUENTIAL, CORRELATED
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=utcnow)
 
     # Relationships
     incident = relationship("Incident", back_populates="alarm_associations")

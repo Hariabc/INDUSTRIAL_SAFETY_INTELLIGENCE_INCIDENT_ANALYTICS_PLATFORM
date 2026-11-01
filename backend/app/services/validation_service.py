@@ -1,13 +1,13 @@
 import os
 import json
 import csv
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict, List, Any, Tuple
 from sqlalchemy.orm import Session
 from backend.app.models import (
-    Plant, SafetyZone, Machine, MachineSafetyZone, Interlock,
-    AlarmDefinition, OperatorShift, MachineStateEvent, AlarmEvent,
-    Acknowledgement, Incident, IncidentAlarmEvent, CorrectiveAction
+    Plant, SafetyZone, Machine, Interlock,
+    AlarmDefinition, AlarmEvent, Acknowledgement,
+    Incident, CorrectiveAction
 )
 
 
@@ -57,7 +57,7 @@ class DataValidationService:
         integrity_score = max(0.0, 100.0 - (accidental_corruption * 5.0))
 
         summary = {
-            "validation_timestamp": datetime.utcnow().isoformat(),
+            "validation_timestamp": datetime.now(timezone.utc).isoformat(),
             "total_checks_performed": 10,
             "overall_status": "PASSED" if accidental_corruption == 0 else "FAILED",
             "data_integrity_score": round(integrity_score, 2),

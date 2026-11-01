@@ -1,8 +1,7 @@
-from fastapi import APIRouter, Depends, HTTPException, Body
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from datetime import datetime
+from datetime import datetime, timezone
 from pydantic import BaseModel
-from typing import Dict, Any, List
 from backend.app.database import get_db
 from backend.app.models import SystemConfig, AuditLog
 from backend.app.config import settings
@@ -94,7 +93,7 @@ def update_system_settings(payload: SettingsUpdateRequest, db: Session = Depends
         if existing:
             existing.value = val
             existing.updated_by = payload.actor
-            existing.updated_at = datetime.utcnow()
+            existing.updated_at = datetime.now(timezone.utc).replace(tzinfo=None)
         else:
             db.add(SystemConfig(
                 key=key,
@@ -102,7 +101,7 @@ def update_system_settings(payload: SettingsUpdateRequest, db: Session = Depends
                 category=cat,
                 description=desc,
                 updated_by=payload.actor,
-                updated_at=datetime.utcnow()
+                updated_at=datetime.now(timezone.utc).replace(tzinfo=None)
             ))
 
     audit = AuditLog(
@@ -111,7 +110,7 @@ def update_system_settings(payload: SettingsUpdateRequest, db: Session = Depends
         action="UPDATE_CONFIG",
         actor=payload.actor,
         details=f"Updated SLA and detection parameters: critical_sla={payload.ack_sla_critical_seconds}s, flood_thresh={payload.alarm_flood_threshold}",
-        timestamp=datetime.utcnow()
+        timestamp=datetime.now(timezone.utc).replace(tzinfo=None)
     )
     db.add(audit)
     db.commit()

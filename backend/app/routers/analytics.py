@@ -2,10 +2,9 @@ from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 from sqlalchemy import func
 from typing import Optional
-from datetime import datetime, timedelta
 from backend.app.database import get_db
 from backend.app.models import (
-    AlarmEvent, Machine, Plant, Incident, Acknowledgement, SafetyAnomaly, OperatorShift
+    AlarmEvent, Machine, Plant, Incident, Acknowledgement
 )
 from backend.app.services.evaluation_service import ModelEvaluationService
 

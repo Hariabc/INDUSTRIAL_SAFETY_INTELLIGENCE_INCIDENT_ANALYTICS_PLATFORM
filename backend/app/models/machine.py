@@ -1,7 +1,6 @@
-from datetime import datetime
 from sqlalchemy import Column, String, Boolean, DateTime, ForeignKey, Index
 from sqlalchemy.orm import relationship
-from backend.app.database import Base
+from backend.app.database import Base, utcnow
 
 
 class Machine(Base):
@@ -12,12 +11,12 @@ class Machine(Base):
     name = Column(String(200), nullable=False)
     type = Column(String(50), nullable=False)  # TURBINE, ROBOTIC_ARM, HYDRAULIC_PRESS, CONVEYOR, COMPRESSOR, REACTOR, CNC_MILL
     model_number = Column(String(100))
-    installation_date = Column(DateTime, default=datetime.utcnow)
+    installation_date = Column(DateTime, default=utcnow)
     current_state = Column(String(50), default="RUNNING", index=True)  # RUNNING, IDLE, TRIPPED, EMERGENCY_STOP, MAINTENANCE, UNSAFE
     criticality = Column(String(50), default="MEDIUM", index=True)  # CRITICAL, HIGH, MEDIUM, LOW
     is_isolated = Column(Boolean, default=False)
-    created_at = Column(DateTime, default=datetime.utcnow)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    created_at = Column(DateTime, default=utcnow)
+    updated_at = Column(DateTime, default=utcnow, onupdate=utcnow)
 
     # Relationships
     plant = relationship("Plant", back_populates="machines")

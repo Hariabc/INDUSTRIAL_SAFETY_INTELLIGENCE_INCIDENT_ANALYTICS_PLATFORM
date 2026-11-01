@@ -2,7 +2,7 @@ import os
 import json
 import csv
 import hashlib
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict, List, Any
 
 
@@ -29,7 +29,7 @@ class DataExporter:
         manifest = {
             "platform_name": "Industrial Safety Intelligence Platform",
             "generator_version": "1.0.0",
-            "generated_at": datetime.utcnow().isoformat(),
+            "generated_at": datetime.now(timezone.utc).isoformat(),
             "duration_seconds": round(generation_duration_sec, 2),
             "config": {
                 "seed": config.seed,
@@ -131,7 +131,7 @@ class DataExporter:
 
         with open(sql_path, "w", encoding="utf-8") as f:
             f.write("-- Industrial Safety Intelligence Platform - Core Seed Data\n")
-            f.write(f"-- Generated: {datetime.utcnow().isoformat()}\n\n")
+            f.write(f"-- Generated: {datetime.now(timezone.utc).isoformat()}\n\n")
 
             for tbl in core_tables:
                 records = datasets.get(tbl, [])

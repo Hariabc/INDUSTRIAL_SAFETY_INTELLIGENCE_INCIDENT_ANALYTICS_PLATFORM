@@ -3,9 +3,8 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func
 from backend.app.database import get_db
 from backend.app.models import (
-    Plant, Machine, AlarmEvent, Incident, CorrectiveAction, SafetyAnomaly
+    Plant, Machine, AlarmEvent, Incident, CorrectiveAction
 )
-from backend.app.schemas.analytics import OverviewStatsSchema
 from backend.app.services.evaluation_service import ModelEvaluationService
 
 router = APIRouter(prefix="/dashboard", tags=["Dashboard"])

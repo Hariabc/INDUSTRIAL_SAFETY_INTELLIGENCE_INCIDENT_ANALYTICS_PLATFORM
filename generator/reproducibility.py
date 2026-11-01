@@ -1,6 +1,5 @@
 import os
 import json
-import hashlib
 import time
 from generator.config import GeneratorConfig
 from generator.generate import run_pipeline

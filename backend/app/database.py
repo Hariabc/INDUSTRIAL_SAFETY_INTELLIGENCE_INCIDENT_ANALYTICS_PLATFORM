@@ -1,7 +1,12 @@
-import os
+from datetime import datetime, timezone
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 from backend.app.config import settings
+
+
+def utcnow():
+    """Return naive UTC datetime for database column defaults (replaces deprecated datetime.utcnow)."""
+    return datetime.now(timezone.utc).replace(tzinfo=None)
 
 database_url = settings.DATABASE_URL
 

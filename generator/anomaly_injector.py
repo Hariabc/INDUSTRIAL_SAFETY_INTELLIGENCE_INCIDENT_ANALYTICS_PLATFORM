@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Tuple, Any
 import copy
 import random
@@ -172,7 +172,7 @@ def inject_anomalies(
             "entity_id": act["id"],
             "machine_id": None,
             "plant_id": None,
-            "timestamp": act["updated_at"].isoformat() if act["updated_at"] else datetime.utcnow().isoformat(),
+            "timestamp": act["updated_at"].isoformat() if act["updated_at"] else datetime.now(timezone.utc).isoformat(),
             "details": f"Action {act['id']} has status '{act['status']}' but is_verified is False and verification timestamp is null."
         })
 

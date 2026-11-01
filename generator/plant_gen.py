@@ -1,6 +1,5 @@
 from datetime import datetime
 from typing import List, Tuple
-import random
 from generator.id_generator import IdGenerator
 
 PLANT_PROFILES = [

@@ -1,12 +1,12 @@
 from fastapi import APIRouter, Depends, HTTPException, Query, Body
 from sqlalchemy.orm import Session
 from sqlalchemy import or_
-from typing import Optional, List
-from datetime import datetime
+from typing import Optional
+from datetime import datetime, timezone
 from backend.app.database import get_db
 from backend.app.models import (
     Incident, Plant, Machine, SafetyZone, AlarmEvent, Acknowledgement,
-    MachineStateEvent, CorrectiveAction, IncidentAlarmEvent, AuditLog
+    MachineStateEvent, CorrectiveAction, AuditLog
 )
 
 router = APIRouter(prefix="/incidents", tags=["Incidents"])
@@ -309,7 +309,7 @@ def acknowledge_incident(
                 status_code=400,
                 detail=f"Cannot close incident: {unverified_count} corrective actions are pending mandatory safety verification."
             )
-        inc.closed_timestamp = datetime.utcnow()
+        inc.closed_timestamp = datetime.now(timezone.utc).replace(tzinfo=None)
 
     inc.status = status
     if investigator:
@@ -322,7 +322,7 @@ def acknowledge_incident(
         action="UPDATE_STATUS",
         actor=investigator or "Incident Responder",
         details=f"Incident {inc.id} transitioned to {status}",
-        timestamp=datetime.utcnow()
+        timestamp=datetime.now(timezone.utc).replace(tzinfo=None)
     )
     db.add(audit)
     db.commit()

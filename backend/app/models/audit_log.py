@@ -1,6 +1,5 @@
-from datetime import datetime
 from sqlalchemy import Column, Integer, String, Text, DateTime
-from backend.app.database import Base
+from backend.app.database import Base, utcnow
 
 
 class AuditLog(Base):
@@ -12,7 +11,7 @@ class AuditLog(Base):
     action = Column(String(50), nullable=False)  # CREATE, UPDATE, DELETE, VERIFY, EXECUTE
     actor = Column(String(100), nullable=False)
     details = Column(Text, nullable=True)
-    timestamp = Column(DateTime, default=datetime.utcnow, nullable=False, index=True)
+    timestamp = Column(DateTime, default=utcnow, nullable=False, index=True)
 
 
 class SystemConfig(Base):
@@ -24,4 +23,4 @@ class SystemConfig(Base):
     category = Column(String(100), nullable=False)  # SLA, THRESHOLD, DETECTION, MAPPING
     description = Column(String(500), nullable=True)
     updated_by = Column(String(100), default="SYSTEM")
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    updated_at = Column(DateTime, default=utcnow, onupdate=utcnow)

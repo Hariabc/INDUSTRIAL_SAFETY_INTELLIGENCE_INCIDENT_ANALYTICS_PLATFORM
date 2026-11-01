@@ -1,11 +1,11 @@
 import json
-from datetime import datetime, timedelta
-from typing import List, Dict, Any, Optional
+from datetime import datetime, timezone
+from typing import List
 from sqlalchemy.orm import Session
 from sqlalchemy import func
 from backend.app.config import settings
 from backend.app.models import (
-    Plant, Machine, SafetyZone, Interlock,
+    Machine, Interlock,
     AlarmDefinition, AlarmEvent, Acknowledgement,
     Incident, CorrectiveAction, SafetyAnomaly, MachineStateEvent
 )
@@ -133,7 +133,7 @@ class SafetyDetectionEngine:
                     plant_id=p_id,
                     anomaly_type="REPEATED_UNSAFE_CONDITION",
                     severity="CRITICAL",
-                    detection_timestamp=datetime.utcnow(),
+                    detection_timestamp=datetime.now(timezone.utc).replace(tzinfo=None),
                     related_event_ids=json.dumps(event_list),
                     explanation=f"Machine {m_id} exhibited {count} high/critical alarms and {unsafe_transitions} trips/unsafe state transitions.",
                     recommended_action="Isolate equipment immediately, execute mechanical integrity inspection, and recalibrate safety interlocks.",
@@ -162,7 +162,7 @@ class SafetyDetectionEngine:
                 plant_id=alm.plant_id,
                 anomaly_type="DELAYED_ACKNOWLEDGEMENT",
                 severity="HIGH",
-                detection_timestamp=datetime.utcnow(),
+                detection_timestamp=datetime.now(timezone.utc).replace(tzinfo=None),
                 related_event_ids=json.dumps([ack.id, alm.id]),
                 explanation=f"Temporal violation: Acknowledgement {ack.id} occurred at {ack.ack_timestamp}, which precedes alarm {alm.id} ({alm.event_timestamp}).",
                 recommended_action="Audit SCADA/PLC time synchronization daemon and investigate event pipeline latency.",
@@ -191,7 +191,7 @@ class SafetyDetectionEngine:
                 plant_id=alm.plant_id,
                 anomaly_type="DELAYED_ACKNOWLEDGEMENT",
                 severity="MEDIUM" if alm.severity in ["LOW", "INFO"] else "HIGH",
-                detection_timestamp=datetime.utcnow(),
+                detection_timestamp=datetime.now(timezone.utc).replace(tzinfo=None),
                 related_event_ids=json.dumps([ack.id, alm.id]),
                 explanation=f"Acknowledgement SLA breached: Alarm {alm.id} acknowledged after {ack.ack_delay_seconds:.1f}s (SLA limit: {sla}s).",
                 recommended_action="Review shift staffing allocation and operator alarm dashboard prioritization.",
@@ -227,7 +227,7 @@ class SafetyDetectionEngine:
                 plant_id=p_id,
                 anomaly_type="ALARM_FLOOD",
                 severity="HIGH" if count >= 20 else "MEDIUM",
-                detection_timestamp=datetime.utcnow(),
+                detection_timestamp=datetime.now(timezone.utc).replace(tzinfo=None),
                 related_event_ids=json.dumps(sample_ids),
                 explanation=f"Alarm flood detected on Machine {m_id}: {count} alarms raised in window {hr_win}:00 (threshold: {self.flood_threshold}).",
                 recommended_action="Activate flood suppression logic, verify cascade trip root cause, and review alarm deadband settings.",
@@ -261,7 +261,7 @@ class SafetyDetectionEngine:
                 plant_id=p_id,
                 anomaly_type="NUISANCE_ALARM",
                 severity="LOW",
-                detection_timestamp=datetime.utcnow(),
+                detection_timestamp=datetime.now(timezone.utc).replace(tzinfo=None),
                 related_event_ids=json.dumps([def_id, m_id]),
                 explanation=f"Definition {def_id} triggered {count} times on Machine {m_id} without escalating to an incident (chattering alarm).",
                 recommended_action="Increase sensor filter deadband, adjust hysteresis parameters, or schedule preventive sensor recalibration.",
@@ -294,7 +294,7 @@ class SafetyDetectionEngine:
                 plant_id=mch.plant_id,
                 anomaly_type="INTERLOCK_VIOLATION",
                 severity="CRITICAL",
-                detection_timestamp=datetime.utcnow(),
+                detection_timestamp=datetime.now(timezone.utc).replace(tzinfo=None),
                 related_event_ids=json.dumps([itl.id, mch.id]),
                 explanation=f"Safety violation: Interlock {itl.id} ({itl.name}) is in '{itl.current_state}' while Machine {mch.id} is in RUNNING state (bypass prohibited).",
                 recommended_action="Trigger emergency interlock latch trip, halt machine production line, and require physical safety lock verification.",
@@ -317,7 +317,7 @@ class SafetyDetectionEngine:
                 plant_id=inc.plant_id,
                 anomaly_type="MISSING_INCIDENT_CONTEXT",
                 severity="HIGH",
-                detection_timestamp=datetime.utcnow(),
+                detection_timestamp=datetime.now(timezone.utc).replace(tzinfo=None),
                 related_event_ids=json.dumps([inc.id]),
                 explanation=f"Incident {inc.id} lacks root-cause triggering alarm or causal telemetry link (untraceable safety event).",
                 recommended_action="Reconcile historian logs around incident inception timestamp and link originating alarm event.",
@@ -353,7 +353,7 @@ class SafetyDetectionEngine:
                 plant_id=p_id,
                 anomaly_type="DUPLICATE_ALARM_REPLAY",
                 severity="MEDIUM",
-                detection_timestamp=datetime.utcnow(),
+                detection_timestamp=datetime.now(timezone.utc).replace(tzinfo=None),
                 related_event_ids=json.dumps(sample_ids),
                 explanation=f"Duplicate event ingestion replay: source_event_id '{src_id}' ingested {count} times across IDs {sample_ids}.",
                 recommended_action="Verify broker idempotency keys, check MQTT/Kafka dedup window, and purge replayed records.",
@@ -386,7 +386,7 @@ class SafetyDetectionEngine:
                 plant_id=p_id,
                 anomaly_type="INCOMPLETE_CORRECTIVE_ACTION",
                 severity="HIGH",
-                detection_timestamp=datetime.utcnow(),
+                detection_timestamp=datetime.now(timezone.utc).replace(tzinfo=None),
                 related_event_ids=json.dumps([act.id, act.incident_id]),
                 explanation=f"Governance non-compliance: Corrective action {act.id} is marked '{act.status}' without safety sign-off verification.",
                 recommended_action="Revert action status to IN_PROGRESS, assign qualified safety officer, and execute mandatory verification checklist.",
