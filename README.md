@@ -10,7 +10,7 @@
 | Guideline | Requirement | Primary Artifacts & Proof |
 | :--- | :--- | :--- |
 | **01. MAKE IT RUN** | Executable code with clear install & run steps | [1-Click Windows: `run.bat`](./run.bat), [1-Click Linux: `run.sh`](./run.sh), [`docker-compose.yml`](./docker-compose.yml), [Section 14: Execution Commands](#14-execution-commands) |
-| **02. SHOW YOUR WORK** | Public GitHub repo with meaningful history | [GitHub Repository: `Hariabc/-INDUSTRIAL-SAFETY-INTELLIGENCE-INCIDENT-ANALYTICS-PLATFORM`](https://github.com/Hariabc/-INDUSTRIAL-SAFETY-INTELLIGENCE-INCIDENT-ANALYTICS-PLATFORM.git) |
+| **02. SHOW YOUR WORK** | Public GitHub repo with meaningful history | [GitHub Repository: `Hariabc/INDUSTRIAL_SAFETY_INTELLIGENCE_INCIDENT_ANALYTICS_PLATFORM`](https://github.com/Hariabc/INDUSTRIAL_SAFETY_INTELLIGENCE_INCIDENT_ANALYTICS_PLATFORM.git) |
 | **03. USE LLMs TRANSPARENTLY** | Complete prompt history & AI acceleration disclosure | [LLM Collaboration & Prompt History Report (`docs/LLM_COLLABORATION_REPORT.md`)](./docs/LLM_COLLABORATION_REPORT.md) |
 | **04. MAKE YOUR REASONING VISIBLE** | Explain the why, decisions, trade-offs, and testing | [Architecture & Reasoning (`docs/ARCHITECTURE_AND_REASONING.md`)](./docs/ARCHITECTURE_AND_REASONING.md) |
 | **INTERVIEW WALKTHROUGH** | Prepared walkthrough & defense guide | [Solution Walkthrough & Interview Presentation Guide (`docs/SOLUTION_WALKTHROUGH.md`)](./docs/SOLUTION_WALKTHROUGH.md) |

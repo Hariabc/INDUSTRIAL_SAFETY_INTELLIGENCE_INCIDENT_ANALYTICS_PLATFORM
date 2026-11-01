@@ -4,7 +4,7 @@
 > *Submit your prompt history and explain where AI accelerated your work, where you relied heavily on it, and what you personally reviewed, changed, or validated.*  
 > **Role Evaluated:** Associate AI Forward Deployed Engineer  
 > **Platform:** Industrial Safety Intelligence & Incident Analytics Platform  
-> **Repository:** [GitHub Repository](https://github.com/Hariabc/-INDUSTRIAL-SAFETY-INTELLIGENCE-INCIDENT-ANALYTICS-PLATFORM.git)
+> **Repository:** [GitHub Repository](https://github.com/Hariabc/INDUSTRIAL_SAFETY_INTELLIGENCE_INCIDENT_ANALYTICS_PLATFORM.git)
 
 ---
 
